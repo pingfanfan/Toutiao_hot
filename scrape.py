@@ -28,40 +28,54 @@ def is_relevant(title: str) -> bool:
     title_lower = title.lower()
     return any(kw.lower() in title_lower for kw in KEYWORDS)
 
+def make_create_link(trending_url: str) -> str:
+    """把 trending URL 转成去创作链接"""
+    # https://www.toutiao.com/trending/7624945441272463414
+    # → https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7624945441272463414&enter_from=inspiration
+    m = re.search(r'/trending/(\d+)', trending_url)
+    if m:
+        return f"https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id={m.group(1)}&enter_from=inspiration"
+    return trending_url
+
 def scrape_items(page) -> list[dict]:
-    """从页面抓取所有热选条目"""
+    """点击加载更多直到全部加载，抓取所有热选条目（最多100条）"""
     items = []
 
     # 等待热选列表加载
     page.wait_for_selector("a[href*='toutiao.com/trending/']", timeout=15000)
 
+    # 循环点击"加载更多"直到没有为止
+    while True:
+        more_btn = page.query_selector("text=加载更多")
+        if not more_btn:
+            break
+        more_btn.click()
+        page.wait_for_timeout(1500)
+
+    # 抓取所有条目
     links = page.query_selector_all("a[href*='toutiao.com/trending/']")
     for link in links:
-        href = link.get_attribute("href") or ""
+        trending_url = link.get_attribute("href") or ""
         text = link.inner_text().strip()
 
-        # 解析文本格式: "标题\n榜单名\n阅读 X\n讨论 Y\n去创作"
         lines = [l.strip() for l in text.splitlines() if l.strip()]
         if len(lines) < 4:
             continue
 
         title = lines[0]
-        # 找榜单行
         rank = next((l for l in lines if any(k in l for k in ["榜第", "热榜第"])), "")
-        # 找阅读量
         reads_m = re.search(r'阅读\s*([\d.,万]+)', text)
         reads = reads_m.group(1) if reads_m else "-"
-        # 找讨论数
         discuss_m = re.search(r'讨论\s*([\d,]+)', text)
         discuss = discuss_m.group(1) if discuss_m else "-"
 
-        if title and href:
+        if title and trending_url:
             items.append({
                 "title": title,
                 "rank": rank,
                 "reads": reads,
                 "discuss": discuss,
-                "link": href,
+                "link": make_create_link(trending_url),
                 "relevant": is_relevant(title),
             })
 
