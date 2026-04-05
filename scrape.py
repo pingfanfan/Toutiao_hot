@@ -6,11 +6,16 @@
 import os
 import re
 import sys
+import json
+import subprocess
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 
 AUTH_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".auth")
 URL = "https://mp.toutiao.com/profile_v4/activity/hot-selection"
+OPENMONEY_DIR = os.path.expanduser("~/Desktop/AK/OpenMoney")
+CLAUDE_BIN = "/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude"
+LAST_TOPICS_FILE = "data/last_topics.json"
 
 KEYWORDS = [
     # 科技
@@ -129,6 +134,41 @@ def update_readme(date_str: str, time_str: str, total: int, relevant_count: int)
         with open(readme, "a", encoding="utf-8") as f:
             f.write(entry)
 
+def load_last_topics() -> set:
+    """加载上次抓取的话题标题集合"""
+    if not os.path.exists(LAST_TOPICS_FILE):
+        return set()
+    with open(LAST_TOPICS_FILE, encoding="utf-8") as f:
+        return set(json.load(f))
+
+def save_last_topics(items: list[dict]):
+    """保存本次所有话题标题，供下次对比"""
+    os.makedirs("data", exist_ok=True)
+    with open(LAST_TOPICS_FILE, "w", encoding="utf-8") as f:
+        json.dump([i["title"] for i in items], f, ensure_ascii=False)
+
+def find_new_topics(items: list[dict], last_titles: set) -> list[dict]:
+    """返回本次新出现的相关话题"""
+    return [i for i in items if i["relevant"] and i["title"] not in last_titles]
+
+def trigger_write_all(topic: dict):
+    """在 OpenMoney 目录里调用 claude -p 执行 /write-all"""
+    prompt = (
+        f"/write-all 话题：{topic['title']}\n"
+        f"榜单：{topic['rank']}，阅读量：{topic['reads']}，讨论数：{topic['discuss']}\n"
+        f"去创作链接：{topic['link']}"
+    )
+    print(f"  → 触发写作：{topic['title']}")
+    try:
+        subprocess.Popen(
+            [CLAUDE_BIN, "-p", prompt, "--dangerously-skip-permissions"],
+            cwd=OPENMONEY_DIR,
+            stdout=open(os.path.join(OPENMONEY_DIR, f"logs/write-{datetime.now().strftime('%Y%m%d-%H%M')}-{topic['title'][:20]}.log"), "w"),
+            stderr=subprocess.STDOUT,
+        )
+    except Exception as e:
+        print(f"  ⚠️  触发失败：{e}")
+
 def git_push(timestamp: datetime, total: int, relevant_count: int):
     msg = f"抓取 {timestamp.strftime('%Y-%m-%d %H:%M')} | {total}条 | 相关{relevant_count}条"
     os.system("git add -A")
@@ -167,6 +207,12 @@ def main():
         sys.exit(1)
 
     timestamp = datetime.now()
+
+    # 检测新话题
+    last_titles = load_last_topics()
+    new_topics = find_new_topics(items, last_titles)
+    save_last_topics(items)
+
     filename, relevant = save_markdown(items, timestamp)
     update_readme(
         timestamp.strftime("%Y-%m-%d"),
@@ -176,7 +222,16 @@ def main():
 
     print(f"✓ 共 {len(items)} 条，科技/AI/教育相关 {len(relevant)} 条")
     for r in relevant:
-        print(f"  → {r['title']} ({r['rank']}) 阅读{r['reads']}")
+        print(f"  {'★ 新增' if r in new_topics else '  '} {r['title']} ({r['rank']}) 阅读{r['reads']}")
+
+    # 对新增相关话题触发写作
+    if new_topics:
+        print(f"\n★ 发现 {len(new_topics)} 个新话题，触发 /write-all...")
+        os.makedirs(os.path.join(OPENMONEY_DIR, "logs"), exist_ok=True)
+        for topic in new_topics:
+            trigger_write_all(topic)
+    else:
+        print("  （无新增相关话题）")
 
     git_push(timestamp, len(items), len(relevant))
     print(f"✓ 已保存并推送：{filename}")
