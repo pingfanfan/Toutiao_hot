@@ -191,13 +191,24 @@ def trigger_write_all(topic: dict):
     except Exception as e:
         print(f"  ⚠️  触发失败：{e}")
 
-def git_push(timestamp: datetime, total: int, relevant_count: int):
+def notify(title: str, message: str):
+    os.system(f'osascript -e \'display notification "{message}" with title "{title}" sound name "Glass"\'')
+
+def git_push(timestamp: datetime, total: int, relevant_count: int, new_topics: list):
     msg = f"抓取 {timestamp.strftime('%Y-%m-%d %H:%M')} | {total}条 | 相关{relevant_count}条"
     os.system("git add -A")
     os.system(f'git commit -m "{msg}"')
     ret = os.system("git push origin HEAD 2>&1")
     if ret != 0:
         print("⚠️  推送失败，请检查 git 认证配置")
+        notify("头条热选 ⚠️", "GitHub 推送失败，请检查网络")
+    else:
+        if new_topics:
+            topics_str = "、".join(t["title"][:10] for t in new_topics[:3])
+            suffix = f" 等{len(new_topics)}条新话题" if len(new_topics) > 1 else ""
+            notify("头条热选已更新 ★", f"新增：{topics_str}{suffix}")
+        else:
+            notify("头条热选已更新", f"共{total}条，相关{relevant_count}条，无新增话题")
 
 def main():
     if not os.path.exists(AUTH_DIR):
@@ -255,7 +266,7 @@ def main():
     else:
         print("  （无新增相关话题）")
 
-    git_push(timestamp, len(items), len(relevant))
+    git_push(timestamp, len(items), len(relevant), new_topics)
     print(f"✓ 已保存并推送：{filename}")
 
 if __name__ == "__main__":
