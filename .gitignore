@@ -1,0 +1,4 @@
+.auth/
+.gstack/
+__pycache__/
+*.pyc
