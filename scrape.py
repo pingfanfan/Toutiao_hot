@@ -121,18 +121,40 @@ def save_markdown(items: list[dict], timestamp: datetime) -> tuple[str, list]:
 
     return filename, relevant
 
-def update_readme(date_str: str, time_str: str, total: int, relevant_count: int):
-    entry = f"| {date_str} {time_str} | {total} | {relevant_count} | [查看](data/{date_str}.md) |\n"
+def update_readme(date_str: str, time_str: str, total: int, relevant_count: int, relevant: list):
     readme = "README.md"
+    header = (
+        "# 头条热选归档\n\n"
+        "每2小时自动抓取，过滤科技/AI/教育相关话题。\n\n"
+    )
+    table_header = (
+        "| 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |\n"
+        "|------|-----------------|---------|------|\n"
+    )
+
+    # 科技/AI/教育话题列：显示标题列表
+    if relevant:
+        topics_cell = "<br>".join(f"[{i['title']}]({i['link']})" for i in relevant)
+    else:
+        topics_cell = "（无）"
+
+    new_entry = f"| {date_str} {time_str} | {topics_cell} | {total} | [查看](data/{date_str}.md) |\n"
+
     if not os.path.exists(readme):
         with open(readme, "w", encoding="utf-8") as f:
-            f.write("# 头条热选归档\n\n每2小时自动抓取，过滤科技/AI/教育相关话题。\n\n")
-            f.write("| 时间 | 总话题数 | 相关话题数 | 详情 |\n")
-            f.write("|------|---------|-----------|------|\n")
-            f.write(entry)
+            f.write(header + table_header + new_entry)
     else:
-        with open(readme, "a", encoding="utf-8") as f:
-            f.write(entry)
+        with open(readme, "r", encoding="utf-8") as f:
+            content = f.read()
+        # 在表头之后插入新条目（最新在最前）
+        insert_after = table_header
+        if insert_after in content:
+            content = content.replace(insert_after, insert_after + new_entry, 1)
+        else:
+            # 表头不存在时重建
+            content = header + table_header + new_entry
+        with open(readme, "w", encoding="utf-8") as f:
+            f.write(content)
 
 def load_last_topics() -> set:
     """加载上次抓取的话题标题集合"""
@@ -217,7 +239,7 @@ def main():
     update_readme(
         timestamp.strftime("%Y-%m-%d"),
         timestamp.strftime("%H:%M"),
-        len(items), len(relevant)
+        len(items), len(relevant), relevant
     )
 
     print(f"✓ 共 {len(items)} 条，科技/AI/教育相关 {len(relevant)} 条")
