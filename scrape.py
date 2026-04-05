@@ -8,6 +8,7 @@ import re
 import sys
 import json
 import subprocess
+import urllib.request
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 
@@ -191,24 +192,58 @@ def trigger_write_all(topic: dict):
     except Exception as e:
         print(f"  ⚠️  触发失败：{e}")
 
-def notify(title: str, message: str):
-    os.system(f'osascript -e \'display notification "{message}" with title "{title}" sound name "Glass"\'')
+def load_env():
+    env_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+    env = {}
+    if os.path.exists(env_file):
+        for line in open(env_file):
+            line = line.strip()
+            if "=" in line and not line.startswith("#"):
+                k, v = line.split("=", 1)
+                env[k.strip()] = v.strip()
+    return env
 
-def git_push(timestamp: datetime, total: int, relevant_count: int, new_topics: list):
+def post_github_comment(token: str, issue_number: int, body: str):
+    url = f"https://api.github.com/repos/pingfanfan/Toutiao_hot/issues/{issue_number}/comments"
+    data = json.dumps({"body": body}).encode()
+    req = urllib.request.Request(url, data=data, headers={
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json",
+        "Content-Type": "application/json",
+    })
+    try:
+        urllib.request.urlopen(req, timeout=10)
+        print("✓ GitHub Issue 通知已发送")
+    except Exception as e:
+        print(f"⚠️  GitHub 通知失败：{e}")
+
+def git_push(timestamp: datetime, total: int, relevant_count: int, new_topics: list, relevant: list):
     msg = f"抓取 {timestamp.strftime('%Y-%m-%d %H:%M')} | {total}条 | 相关{relevant_count}条"
     os.system("git add -A")
     os.system(f'git commit -m "{msg}"')
     ret = os.system("git push origin HEAD 2>&1")
     if ret != 0:
         print("⚠️  推送失败，请检查 git 认证配置")
-        notify("头条热选 ⚠️", "GitHub 推送失败，请检查网络")
+        return
+
+    # 发 GitHub Issue 评论
+    env = load_env()
+    token = env.get("GITHUB_TOKEN")
+    issue_number = int(env.get("GITHUB_ISSUE_NUMBER", 1))
+    if not token:
+        return
+
+    ts = timestamp.strftime("%Y-%m-%d %H:%M")
+    date_str = timestamp.strftime("%Y-%m-%d")
+
+    if new_topics:
+        new_lines = "\n".join(f"- **{t['title']}**（{t['rank']}，阅读 {t['reads']}）[去创作]({t['link']})" for t in new_topics)
+        comment = f"## ★ {ts} 新增话题\n\n{new_lines}\n\n[查看完整列表](data/{date_str}.md)"
     else:
-        if new_topics:
-            topics_str = "、".join(t["title"][:10] for t in new_topics[:3])
-            suffix = f" 等{len(new_topics)}条新话题" if len(new_topics) > 1 else ""
-            notify("头条热选已更新 ★", f"新增：{topics_str}{suffix}")
-        else:
-            notify("头条热选已更新", f"共{total}条，相关{relevant_count}条，无新增话题")
+        rel_lines = "\n".join(f"- {t['title']}（{t['rank']}，阅读 {t['reads']}）" for t in relevant) if relevant else "- 无"
+        comment = f"## {ts} 更新\n\n共 {total} 条，科技/AI/教育相关 {relevant_count} 条，无新增话题。\n\n**相关话题：**\n{rel_lines}\n\n[查看完整列表](data/{date_str}.md)"
+
+    post_github_comment(token, issue_number, comment)
 
 def main():
     if not os.path.exists(AUTH_DIR):
@@ -266,7 +301,7 @@ def main():
     else:
         print("  （无新增相关话题）")
 
-    git_push(timestamp, len(items), len(relevant), new_topics)
+    git_push(timestamp, len(items), len(relevant), new_topics, relevant)
     print(f"✓ 已保存并推送：{filename}")
 
 if __name__ == "__main__":
