@@ -226,3 +226,36 @@ To github.com:pingfanfan/Toutiao_hot.git
   → 触发写作：红板科技4月8日在上交所主板上市
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-07.md
+[main 30fab5d] 抓取 2026-04-07 06:00 | 59条 | 相关10条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 121 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   ae617a5..30fab5d  HEAD -> main
+[2026-04-07 06:00:01.110581] 开始抓取...
+✓ 共 59 条，科技/AI/教育相关 10 条
+     中国AI大模型调用量连续五周超美国 (科技榜第34名) 阅读3.7万
+  ★ 新增 专家：人们恐惧AI是怕被社会分配抛弃 (科技榜第9名) 阅读8,210
+     小米汽车成特斯拉绕不开的竞争者 (汽车榜第13名) 阅读6.4万
+     大学专业死亡潮：川大已砍掉39个 (教育榜第4名) 阅读5,239
+     OpenAI呼吁调查马斯克 (热榜第24名) 阅读1.5万
+     AI能否砸烂影视圈“老登们”的围墙 (娱乐榜第22名) 阅读5,757
+     宇树科技IPO：一个“跛脚”的领跑者 (热榜第33名) 阅读7,461
+     上市险企AI战略升级 (热榜第37名) 阅读1,858
+     红板科技4月8日在上交所主板上市 (热榜第47名) 阅读100
+     如何避免过度使用AI造成“脑损伤” (热榜第57名) 阅读3,944
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：专家：人们恐惧AI是怕被社会分配抛弃
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-07.md
