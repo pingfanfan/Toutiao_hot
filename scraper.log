@@ -448,3 +448,34 @@ To github.com:pingfanfan/Toutiao_hot.git
   → 触发写作：中国AI大模型调用量连续五周超美国
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-07.md
+[main c86fb7a] 抓取 2026-04-07 22:00 | 65条 | 相关8条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 123 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   d931671..c86fb7a  HEAD -> main
+[2026-04-07 22:00:00.532128] 开始抓取...
+✓ 共 65 条，科技/AI/教育相关 8 条
+     AI短片《纸手机》刷屏背后 (科技榜第29名) 阅读4.7万
+     小米汽车成特斯拉绕不开的竞争者 (汽车榜第26名) 阅读22.5万
+     大学专业死亡潮：川大已砍掉39个 (教育榜第20名) 阅读78.3万
+     专家：人们恐惧AI是怕被社会分配抛弃 (科技榜第35名) 阅读14.3万
+     上市险企AI战略升级 (热榜第45名) 阅读11.0万
+     宇树科技IPO：一个“跛脚”的领跑者 (热榜第47名) 阅读5.3万
+  ★ 新增 OpenAI呼吁调查马斯克 (热榜第49名) 阅读16.6万
+     中国AI大模型调用量连续五周超美国 (热榜第62名) 阅读12.9万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：OpenAI呼吁调查马斯克
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-07.md
