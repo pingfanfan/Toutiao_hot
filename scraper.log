@@ -479,3 +479,38 @@ To github.com:pingfanfan/Toutiao_hot.git
   → 触发写作：OpenAI呼吁调查马斯克
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-07.md
+[main f4d4887] 抓取 2026-04-08 00:00 | 67条 | 相关10条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 124 insertions(+), 1 deletion(-)
+ create mode 100644 data/2026-04-08.md
+To github.com:pingfanfan/Toutiao_hot.git
+   c86fb7a..f4d4887  HEAD -> main
+[2026-04-08 00:00:01.255568] 开始抓取...
+✓ 共 67 条，科技/AI/教育相关 10 条
+     大学专业死亡潮：川大已砍掉39个 (教育榜第15名) 阅读84.5万
+     小米汽车成特斯拉绕不开的竞争者 (汽车榜第23名) 阅读24.7万
+     专家：人们恐惧AI是怕被社会分配抛弃 (科技榜第33名) 阅读17.6万
+     上市险企AI战略升级 (热榜第42名) 阅读12.4万
+     OpenAI呼吁调查马斯克 (热榜第47名) 阅读17.7万
+     AI短片《纸手机》刷屏背后 (热榜第49名) 阅读5.6万
+     宇树科技IPO：一个“跛脚”的领跑者 (热榜第57名) 阅读6.1万
+  ★ 新增 行业软件企业该如何应对AI浪潮 (热榜第61名) 阅读4,546
+     中国AI大模型调用量连续五周超美国 (热榜第62名) 阅读14.5万
+  ★ 新增 AI能否砸烂影视圈“老登们”的围墙 (热榜第67名) 阅读4.3万
+
+★ 发现 2 个新话题，触发 /write-all...
+  → 触发写作：行业软件企业该如何应对AI浪潮
+  → 触发写作：AI能否砸烂影视圈“老登们”的围墙
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-08.md
