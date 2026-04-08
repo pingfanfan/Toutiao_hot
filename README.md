@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-04-08 16:00 | [12岁男孩一招“修好”妈妈坏屏手机](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626027935748833322&enter_from=inspiration)<br>[女儿否认鸡煲老板累瘫在地照片是AI](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7625756133735317567&enter_from=inspiration)<br>[暴雨天老师“抬”孩子出校门](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7625343740039577654&enter_from=inspiration) | 40 | [查看](data/2026-04-08.md) |
 | 2026-04-08 14:00 | [12岁男孩一招“修好”妈妈坏屏手机](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626027935748833322&enter_from=inspiration) | 20 | [查看](data/2026-04-08.md) |
 | 2026-04-08 12:00 | [12岁男孩一招“修好”妈妈坏屏手机](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626027935748833322&enter_from=inspiration) | 30 | [查看](data/2026-04-08.md) |
 | 2026-04-08 10:00 | [12岁男孩一招“修好”妈妈坏屏手机](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626027935748833322&enter_from=inspiration) | 20 | [查看](data/2026-04-08.md) |
