@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-04-08 14:00 | [12岁男孩一招“修好”妈妈坏屏手机](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626027935748833322&enter_from=inspiration) | 20 | [查看](data/2026-04-08.md) |
 | 2026-04-08 12:00 | [12岁男孩一招“修好”妈妈坏屏手机](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626027935748833322&enter_from=inspiration) | 30 | [查看](data/2026-04-08.md) |
 | 2026-04-08 10:00 | [12岁男孩一招“修好”妈妈坏屏手机](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626027935748833322&enter_from=inspiration) | 20 | [查看](data/2026-04-08.md) |
 | 2026-04-08 08:00 | [国台办批民进党限制两岸教育交流](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626212697931792420&enter_from=inspiration)<br>[DeepSeek迎来更新 V4要来了吗](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626206561425165860&enter_from=inspiration)<br>[AI时代下设计师的竞争力在哪里](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626222534932860422&enter_from=inspiration) | 20 | [查看](data/2026-04-08.md) |
