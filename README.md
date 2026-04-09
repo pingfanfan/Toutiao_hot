@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-04-09 18:00 | [形式主义考核如何让基层滋生数据造假](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626156011815993350&enter_from=inspiration)<br>[俄就日本与乌开展无人机合作提出抗议](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626373680432906246&enter_from=inspiration) | 50 | [查看](data/2026-04-09.md) |
 | 2026-04-09 16:00 | [形式主义考核如何让基层滋生数据造假](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626156011815993350&enter_from=inspiration) | 30 | [查看](data/2026-04-09.md) |
 | 2026-04-09 14:00 | [我国无人机何以多点爆发](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7626660850116280362&enter_from=inspiration) | 40 | [查看](data/2026-04-09.md) |
 | 2026-04-09 12:00 | （无） | 30 | [查看](data/2026-04-09.md) |
