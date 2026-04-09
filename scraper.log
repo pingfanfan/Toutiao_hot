@@ -906,3 +906,52 @@ To github.com:pingfanfan/Toutiao_hot.git
   → 触发写作：美国一州推进教育减刑法案
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-09.md
+[main 171a6a7] 抓取 2026-04-09 02:00 | 131条 | 相关22条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 234 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   c679fdf..171a6a7  HEAD -> main
+[2026-04-09 02:00:00.639907] 开始抓取...
+✓ 共 131 条，科技/AI/教育相关 22 条
+     12岁男孩一招“修好”妈妈坏屏手机 (科技榜第21名) 阅读92.0万
+  ★ 新增 我国成功发射卫星互联网低轨21组卫星 (科技榜第1名) 阅读4.8万
+     女儿否认鸡煲老板累瘫在地照片是AI (热榜第39名) 阅读7.6万
+     暴雨天老师“抬”孩子出校门 (教育榜第9名) 阅读50.1万
+     乌克兰为何开放战场数据 (军事榜第18名) 阅读68.2万
+     为什么OpenAI赢了流量却输了未来 (科技榜第25名) 阅读50.2万
+     DeepSeek迎来更新 V4要来了吗 (科技榜第43名) 阅读47.7万
+     Anthropic新大模型为何不向公众开放 (科技榜第46名) 阅读20.4万
+     当国产大模型杀入编程“决赛圈” (热榜第78名) 阅读15.2万
+     华为再次杀入千元机 谁会被淘汰 (热榜第82名) 阅读13.5万
+     英特尔加入马斯克的超级芯片工厂 (热榜第89名) 阅读4.1万
+     机构预计泰国芯片出口值将增长22% (热榜第94名) 阅读5.9万
+     AI时代下设计师的竞争力在哪里 (热榜第95名) 阅读42.5万
+     国台办批民进党限制两岸教育交流 (台海榜第22名) 阅读256.5万
+     手机厂商多措并举对冲价格涨幅 (热榜第107名) 阅读6,723
+  ★ 新增 地瓜机器人完成1.5亿美元B2轮融资 (热榜第112名) 阅读17
+  ★ 新增 AI热潮下实体道具会变成摆设吗 (热榜第114名) 阅读4
+  ★ 新增 男子偷拍背影AI生成不雅照被罚 (热榜第125名) 阅读9,936
+  ★ 新增 大学生异地实习陷入“新型贫困” (热榜第126名) 阅读479
+     “物理AI仿真”调查：大势已来 (热榜第128名) 阅读9,105
+     北京亦庄AI未来大会启幕 (热榜第130名) 阅读3,345
+     美国一州推进教育减刑法案 (热榜第131名) 阅读13
+
+★ 发现 5 个新话题，触发 /write-all...
+  → 触发写作：我国成功发射卫星互联网低轨21组卫星
+  → 触发写作：地瓜机器人完成1.5亿美元B2轮融资
+  → 触发写作：AI热潮下实体道具会变成摆设吗
+  → 触发写作：男子偷拍背影AI生成不雅照被罚
+  → 触发写作：大学生异地实习陷入“新型贫困”
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-09.md
