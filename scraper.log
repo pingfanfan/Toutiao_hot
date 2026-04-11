@@ -1805,3 +1805,65 @@ To github.com:pingfanfan/Toutiao_hot.git
   （无新增相关话题）
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-11.md
+[main 246ed1d] 抓取 2026-04-11 04:00 | 89条 | 相关22条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 162 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   8ac42fc..246ed1d  HEAD -> main
+[2026-04-11 04:00:00.790940] 开始抓取...
+✓ 共 89 条，科技/AI/教育相关 22 条
+     你认为中考和高考哪个压力更大 (教育榜第12名) 阅读19.8万
+     夫妻称用AI写公众号年赚200万被封号 (热榜第3名) 阅读29.8万
+     外交部：美方大肆迫害中国学生学者 (国际榜第23名) 阅读142.2万
+     博主：中国AI大模型正甩开美国 (科技榜第22名) 阅读26.8万
+     学生给老师起外号被扇耳光 警方介入 (教育榜第14名) 阅读8.8万
+     智元机器人亮相中美乒乓外交纪念大会 (科技榜第26名) 阅读17.7万
+     大学生烧伤案当事人在长沙治疗半年 (热榜第31名) 阅读69.0万
+     游客偷电动车骑去长城获刑7个月 (热榜第33名) 阅读12.9万
+     2025年留学回国人数达53.56万 (教育榜第22名) 阅读99.4万
+     存储芯片涨价比黄金石油还疯狂 (热榜第39名) 阅读9.0万
+     第14周国内手机市场出货量华为第一 (科技榜第36名) 阅读4.9万
+  ★ 新增 国内电池容量最大新能源机车投运 (热榜第44名) 阅读19.1万
+  ★ 新增 媒体：“AI生成”不是侵权的遮羞布 (科技榜第43名) 阅读28.8万
+     国家将为大家开发AI慕课 (教育榜第25名) 阅读23.4万
+     DeepSeek“落子”乌兰察布有何图谋 (科技榜第45名) 阅读23.0万
+  ★ 新增 OpenAI推出月费100美元ChatGPT Pro (科技榜第49名) 阅读24.5万
+  ★ 新增 将投产全新小型SUV？特斯拉中国辟谣 (汽车榜第25名) 阅读19.8万
+  ★ 新增 AI是抢走文科生饭碗还是让其更吃香 (教育榜第35名) 阅读5.1万
+  ★ 新增 英特尔与谷歌宣布在芯片领域深化合作 (热榜第71名) 阅读4.1万
+  ★ 新增 PC加了AI更贵更好卖吗 (热榜第72名) 阅读3.0万
+  ★ 新增 97岁老人在大学生关爱下重燃生活希望 (热榜第74名) 阅读5,063
+  ★ 新增 一文看懂中国航天的“逆袭之路” (热榜第81名) 阅读48.2万
+
+★ 发现 9 个新话题，触发 /write-all...
+  → 触发写作：国内电池容量最大新能源机车投运
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：媒体：“AI生成”不是侵权的遮羞布
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：OpenAI推出月费100美元ChatGPT Pro
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：将投产全新小型SUV？特斯拉中国辟谣
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI是抢走文科生饭碗还是让其更吃香
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：英特尔与谷歌宣布在芯片领域深化合作
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：PC加了AI更贵更好卖吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：97岁老人在大学生关爱下重燃生活希望
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：一文看懂中国航天的“逆袭之路”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-11.md
