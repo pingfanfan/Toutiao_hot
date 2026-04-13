@@ -2555,3 +2555,117 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-13.md
+[main ff4fa5d] 抓取 2026-04-13 04:00 | 50条 | 相关8条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 107 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   a310c81..ff4fa5d  HEAD -> main
+[2026-04-13 04:00:01.153128] 开始抓取...
+✓ 共 50 条，科技/AI/教育相关 8 条
+     业主炸锅反对800万豪宅变学生宿舍 (教育榜第2名) 阅读6.8万
+     央视曝光AI造黄产业链 (科技榜第3名) 阅读24.5万
+  ★ 新增 阿耳忒弥斯2号航天员分享飞掠月球感悟 (科技榜第5名) 阅读4,598
+     小米股票为何跌跌不休 (财经榜第12名) 阅读93.0万
+     宇树机器人首次参加半程马拉松 (科技榜第11名) 阅读37.3万
+     俄称乌无人机发动恐怖袭击 (国际榜第48名) 阅读36.6万
+     中国载人航天这些首次激动人心 (科技榜第14名) 阅读23.4万
+     歼-8爆改无人机有何意义 (军事榜第16名) 阅读21.5万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：阿耳忒弥斯2号航天员分享飞掠月球感悟
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-13.md
+[2026-04-13 06:00:01.321592] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - element is not visible
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+
+[2026-04-13 08:00:01.055702] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - element is not visible
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+
+[2026-04-13 10:00:00.410290] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 51, in scrape_items
+    page.wait_for_selector("a[href*='toutiao.com/trending/']", timeout=15000)
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 8217, in wait_for_selector
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("a[href*='toutiao.com/trending/']") to be visible
+
