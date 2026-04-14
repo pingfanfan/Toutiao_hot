@@ -2861,3 +2861,34 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-13.md
+[main a6a6d70] 抓取 2026-04-14 00:00 | 70条 | 相关6条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 136 insertions(+), 1 deletion(-)
+ create mode 100644 data/2026-04-14.md
+To github.com:pingfanfan/Toutiao_hot.git
+   c6fbe33..a6a6d70  HEAD -> main
+[2026-04-14 00:00:26.703561] 开始抓取...
+✓ 共 70 条，科技/AI/教育相关 6 条
+  ★ 新增 OpenAI创始人住所接连遭袭 (科技榜第8名) 阅读1.7万
+     合资品牌集中反攻新能源 (汽车榜第12名) 阅读28.0万
+     普通人该如何分辨AI造假 (科技榜第14名) 阅读38.7万
+     为什么AI越卷东亚土老板就越赚钱 (财经榜第31名) 阅读1.8万
+     交管部门回应新能源车牌绿色变白色 (汽车榜第30名) 阅读3.7万
+     4名中学生违规骑共享电单车 1人致残 (热榜第69名) 阅读1.2万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：OpenAI创始人住所接连遭袭
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-14.md
