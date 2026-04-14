@@ -3045,3 +3045,43 @@ To github.com:pingfanfan/Toutiao_hot.git
   （无新增相关话题）
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-14.md
+[main 32665de] 抓取 2026-04-14 12:00 | 110条 | 相关6条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 152 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   101f220..32665de  HEAD -> main
+[2026-04-14 12:00:00.724441] 开始抓取...
+✓ 共 110 条，科技/AI/教育相关 6 条
+  ★ 新增 AI爆发时代AI服务器是一门苦生意吗 (科技榜第21名) 阅读20.3万
+  ★ 新增 4名中学生违规骑共享电单车 1人致残 (热榜第95名) 阅读66.1万
+  ★ 新增 新能源车牌绿变白？人为褪色属违法 (汽车榜第38名) 阅读156.4万
+  ★ 新增 苹果能在AI竞赛中“躺赢”吗 (科技榜第41名) 阅读7.9万
+  ★ 新增 日本“半导体牛股”暂停部分业务接单 (热榜第106名) 阅读7.5万
+  ★ 新增 晶科能源掘金AIDC赛道 (热榜第109名) 阅读3.1万
+
+★ 发现 6 个新话题，触发 /write-all...
+  → 触发写作：AI爆发时代AI服务器是一门苦生意吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：4名中学生违规骑共享电单车 1人致残
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：新能源车牌绿变白？人为褪色属违法
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：苹果能在AI竞赛中“躺赢”吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：日本“半导体牛股”暂停部分业务接单
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：晶科能源掘金AIDC赛道
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-14.md
