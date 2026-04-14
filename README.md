@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-04-14 16:00 | [英伟达推出全球首个开源量子AI模型](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7627728168379547654&enter_from=inspiration)<br>[华为Pura 90系列将搭载2亿像素镜头](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7627477356244140058&enter_from=inspiration) | 40 | [查看](data/2026-04-14.md) |
 | 2026-04-14 14:00 | （无） | 30 | [查看](data/2026-04-14.md) |
 | 2026-04-14 12:00 | [AI爆发时代AI服务器是一门苦生意吗](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7628402080960515647&enter_from=inspiration)<br>[4名中学生违规骑共享电单车 1人致残](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7628190118532956186&enter_from=inspiration)<br>[新能源车牌绿变白？人为褪色属违法](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7627738926737129526&enter_from=inspiration)<br>[苹果能在AI竞赛中“躺赢”吗](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7628177899748655150&enter_from=inspiration)<br>[日本“半导体牛股”暂停部分业务接单](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7628118062033633318&enter_from=inspiration)<br>[晶科能源掘金AIDC赛道](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7627417456907173939&enter_from=inspiration) | 110 | [查看](data/2026-04-14.md) |
 | 2026-04-14 10:00 | （无） | 30 | [查看](data/2026-04-14.md) |
