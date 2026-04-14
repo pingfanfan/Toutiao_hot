@@ -2892,3 +2892,33 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-14.md
+[main 81805c2] 抓取 2026-04-14 02:00 | 40条 | 相关4条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 90 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   a6a6d70..81805c2  HEAD -> main
+[2026-04-14 02:00:01.442918] 开始抓取...
+✓ 共 40 条，科技/AI/教育相关 4 条
+  ★ 新增 日本“半导体牛股”暂停部分业务接单 (财经榜第16名) 阅读6,683
+     OpenAI创始人住所接连遭袭 (科技榜第18名) 阅读4.5万
+     合资品牌集中反攻新能源 (汽车榜第18名) 阅读41.0万
+  ★ 新增 晶科能源掘金AIDC赛道 (热榜第40名) 阅读2,101
+
+★ 发现 2 个新话题，触发 /write-all...
+  → 触发写作：日本“半导体牛股”暂停部分业务接单
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：晶科能源掘金AIDC赛道
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-14.md
