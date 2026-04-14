@@ -2951,3 +2951,55 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-14.md
+[main 2fa28c0] 抓取 2026-04-14 06:00 | 120条 | 相关12条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 176 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   7d58fea..2fa28c0  HEAD -> main
+[2026-04-14 06:00:00.479409] 开始抓取...
+✓ 共 120 条，科技/AI/教育相关 12 条
+     AI爆发时代AI服务器是一门苦生意吗 (科技榜第11名) 阅读3.8万
+     苹果能在AI竞赛中“躺赢”吗 (科技榜第19名) 阅读1.3万
+     日本“半导体牛股”暂停部分业务接单 (热榜第35名) 阅读2.7万
+  ★ 新增 交管部门回应新能源车牌绿色变白色 (汽车榜第18名) 阅读26.3万
+  ★ 新增 4名中学生违规骑共享电单车 1人致残 (热榜第46名) 阅读13.0万
+  ★ 新增 为什么AI越卷东亚土老板就越赚钱 (热榜第59名) 阅读5.9万
+  ★ 新增 OpenAI创始人住所接连遭袭 (热榜第71名) 阅读7.0万
+  ★ 新增 各地开展活动迎接全民国家安全教育日 (热榜第77名) 阅读4.9万
+  ★ 新增 普通人该如何分辨AI造假 (热榜第81名) 阅读52.8万
+  ★ 新增 AI短剧爆款频出 观众为何喊审美疲劳 (热榜第83名) 阅读4.7万
+  ★ 新增 合资品牌集中反攻新能源 (汽车榜第46名) 阅读45.4万
+  ★ 新增 谷歌CEO回应AI起大早赶晚集 (热榜第103名) 阅读5.4万
+
+★ 发现 9 个新话题，触发 /write-all...
+  → 触发写作：交管部门回应新能源车牌绿色变白色
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：4名中学生违规骑共享电单车 1人致残
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：为什么AI越卷东亚土老板就越赚钱
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：OpenAI创始人住所接连遭袭
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：各地开展活动迎接全民国家安全教育日
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：普通人该如何分辨AI造假
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI短剧爆款频出 观众为何喊审美疲劳
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：合资品牌集中反攻新能源
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：谷歌CEO回应AI起大早赶晚集
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-14.md
