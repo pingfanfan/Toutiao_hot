@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-04-15 10:00 | [Uber拟斥百亿美元加码自动驾驶领域](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7628895049987771954&enter_from=inspiration)<br>[B太帮扶的大山女孩用苹果手机](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7628856056097390642&enter_from=inspiration) | 30 | [查看](data/2026-04-15.md) |
 | 2026-04-15 08:00 | [港股科技后市如何](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7628115863320739876&enter_from=inspiration) | 20 | [查看](data/2026-04-15.md) |
 | 2026-04-15 06:00 | [大学教授为何造不出张雪的发动机](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7627669945430343699&enter_from=inspiration)<br>[港股科技后市如何](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7628115863320739876&enter_from=inspiration) | 50 | [查看](data/2026-04-15.md) |
 | 2026-04-15 04:00 | （无） | 30 | [查看](data/2026-04-15.md) |
