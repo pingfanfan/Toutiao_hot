@@ -3807,3 +3807,41 @@ playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms e
 Call log:
   - waiting for locator("a[href*='toutiao.com/trending/']") to be visible
 
+[main 8f606f7] 抓取 2026-04-16 12:00 | 70条 | 相关6条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 142 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   70e9f20..8f606f7  HEAD -> main
+[2026-04-16 12:00:01.073519] 开始抓取...
+✓ 共 70 条，科技/AI/教育相关 6 条
+  ★ 新增 黄仁勋：能源+芯片+研究人员中国都有 (科技榜第1名) 阅读11.2万
+  ★ 新增 自动驾驶下一程：L3还是L4 (汽车榜第3名) 阅读1.1万
+  ★ 新增 俄就欧盟产无人机或用于袭俄发出警告 (国际榜第38名) 阅读7,731
+  ★ 新增 谁在卡位人形机器人 (财经榜第31名) 阅读2.0万
+  ★ 新增 瑞典学校倡导放弃电子设备回归纸笔 (热榜第54名) 阅读1.1万
+     俄称乌在欧洲无人机生产点是打击目标 (军事榜第18名) 阅读59.2万
+
+★ 发现 5 个新话题，触发 /write-all...
+  → 触发写作：黄仁勋：能源+芯片+研究人员中国都有
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：自动驾驶下一程：L3还是L4
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：俄就欧盟产无人机或用于袭俄发出警告
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：谁在卡位人形机器人
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：瑞典学校倡导放弃电子设备回归纸笔
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-16.md
