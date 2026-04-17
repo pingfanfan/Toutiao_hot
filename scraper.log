@@ -4240,3 +4240,53 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-17.md
+[main 067f1e3] 抓取 2026-04-17 12:00 | 120条 | 相关12条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 181 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   0e715ed..067f1e3  HEAD -> main
+[2026-04-17 12:00:00.451057] 开始抓取...
+✓ 共 120 条，科技/AI/教育相关 12 条
+     雷军回应友商“截胡”小米汽车订单 (汽车榜第4名) 阅读71.5万
+  ★ 新增 中国机器人跑出开放共赢加速度 (科技榜第2名) 阅读8.3万
+     黄仁勋：芯片不是浓缩铀 卖中国咋了 (科技榜第28名) 阅读196.6万
+  ★ 新增 AI训练AI是技术飞跃还是打开魔盒 (科技榜第26名) 阅读9,997
+     小伙入职一天偷走公司40多张手机卡 (热榜第75名) 阅读5,574
+     谁在为电动车“年更”买单 (汽车榜第33名) 阅读5.5万
+  ★ 新增 俄罗斯经济数据为何出现萎缩 (热榜第95名) 阅读310.9万
+  ★ 新增 AI提供的报考信息有误 网友诉至法院 (热榜第100名) 阅读1,509
+  ★ 新增 AI提供的报考信息有误 网友诉至法院 (热榜第101名) 阅读1,509
+  ★ 新增 中国AI视频如何火“出圈” (热榜第105名) 阅读273
+  ★ 新增 机器人保姆从破圈到普及还要多久 (热榜第109名) 阅读479
+  ★ 新增 芯片“倒爷”香农芯创一季度利润大涨 (热榜第113名) 阅读38.9万
+
+★ 发现 8 个新话题，触发 /write-all...
+  → 触发写作：中国机器人跑出开放共赢加速度
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI训练AI是技术飞跃还是打开魔盒
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：俄罗斯经济数据为何出现萎缩
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI提供的报考信息有误 网友诉至法院
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI提供的报考信息有误 网友诉至法院
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国AI视频如何火“出圈”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：机器人保姆从破圈到普及还要多久
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：芯片“倒爷”香农芯创一季度利润大涨
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-17.md
