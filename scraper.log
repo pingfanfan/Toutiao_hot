@@ -4341,3 +4341,68 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-17.md
+[main de801bf] 抓取 2026-04-17 18:00 | 152条 | 相关15条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 207 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   5d90e88..de801bf  HEAD -> main
+[2026-04-17 18:00:01.456290] 开始抓取...
+✓ 共 152 条，科技/AI/教育相关 15 条
+     雷军15小时不眠直播手机却被“偷家” (财经榜第1名) 阅读78.5万
+  ★ 新增 雷军回应友商“截胡”小米汽车订单 (汽车榜第12名) 阅读324.7万
+  ★ 新增 小米汽车：胡峥楠任CTO 宋钢任参谋长 (汽车榜第15名) 阅读30.2万
+  ★ 新增 中国机器人跑出开放共赢加速度 (科技榜第10名) 阅读36.1万
+  ★ 新增 北京：义务教育学校须均衡编班 (教育榜第17名) 阅读1.2万
+  ★ 新增 东莞理工一学生送外卖被通报批评 (教育榜第21名) 阅读1.7万
+  ★ 新增 小伙入职一天偷走公司40多张手机卡 (热榜第100名) 阅读3.7万
+  ★ 新增 AI训练AI是技术飞跃还是打开魔盒 (科技榜第32名) 阅读10.8万
+  ★ 新增 机器人保姆从破圈到普及还要多久 (科技榜第34名) 阅读4,590
+  ★ 新增 罗马尼亚称一架俄无人机进入其领空 (军事榜第27名) 阅读3.7万
+  ★ 新增 郑州大学花4500万租房作学生宿舍 (教育榜第29名) 阅读2,569
+  ★ 新增 谁在为电动车“年更”买单 (热榜第130名) 阅读11.4万
+  ★ 新增 谁在为电动车“年更”买单 (热榜第131名) 阅读11.4万
+  ★ 新增 教育家称莫名其妙成了“智库专家” (热榜第141名) 阅读31
+  ★ 新增 教育部发布青少年阅读素养框架标准 (热榜第143名) 阅读20
+
+★ 发现 14 个新话题，触发 /write-all...
+  → 触发写作：雷军回应友商“截胡”小米汽车订单
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小米汽车：胡峥楠任CTO 宋钢任参谋长
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国机器人跑出开放共赢加速度
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：北京：义务教育学校须均衡编班
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：东莞理工一学生送外卖被通报批评
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小伙入职一天偷走公司40多张手机卡
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI训练AI是技术飞跃还是打开魔盒
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：机器人保姆从破圈到普及还要多久
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：罗马尼亚称一架俄无人机进入其领空
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：郑州大学花4500万租房作学生宿舍
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：谁在为电动车“年更”买单
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：谁在为电动车“年更”买单
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：教育家称莫名其妙成了“智库专家”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：教育部发布青少年阅读素养框架标准
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-17.md
