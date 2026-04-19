@@ -5072,3 +5072,42 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-19.md
+[main 7c0816f] 抓取 2026-04-19 12:00 | 90条 | 相关9条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 148 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   f3b34f5..7c0816f  HEAD -> main
+[2026-04-19 12:00:01.484241] 开始抓取...
+✓ 共 90 条，科技/AI/教育相关 9 条
+     穿衣服的机器人参加半马被观众辣评 (科技榜第4名) 阅读472.5万
+     媒体评人形机器人半马：创新没有终点 (科技榜第16名) 阅读101.2万
+     男孩边吃汉堡边给机器人加油 (科技榜第3名) 阅读50.2万
+     最萌机器人拿着奶瓶跑半马 (科技榜第8名) 阅读585.8万
+  ★ 新增 中国人形机器人加速出海 (科技榜第23名) 阅读849
+  ★ 新增 用友网络连亏三年能否借AI突围 (热榜第73名) 阅读1,654
+  ★ 新增 五大行AIC去年净赚超184亿 (热榜第76名) 阅读2
+  ★ 新增 晶晨半导体芯片出货超10亿颗 (热榜第79名) 阅读0
+     亚马逊为何收购卫星公司Globalstar (热榜第81名) 阅读11
+
+★ 发现 4 个新话题，触发 /write-all...
+  → 触发写作：中国人形机器人加速出海
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：用友网络连亏三年能否借AI突围
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：五大行AIC去年净赚超184亿
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：晶晨半导体芯片出货超10亿颗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-19.md
