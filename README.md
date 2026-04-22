@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-04-22 14:00 | [高三理科班毕业照2位女生被请C位合影](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7630679113460170794&enter_from=inspiration) | 20 | [查看](data/2026-04-22.md) |
 | 2026-04-22 12:00 | [英雄航天员陈冬已戴上少将肩章](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7631487050341023785&enter_from=inspiration) | 40 | [查看](data/2026-04-22.md) |
 | 2026-04-22 10:00 | [美陆军用AH-64反无人机使用哪些弹药](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7631470286084247082&enter_from=inspiration) | 50 | [查看](data/2026-04-22.md) |
 | 2026-04-22 08:00 | [苹果是如何挑选接班人的](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7631366067515821618&enter_from=inspiration)<br>[教育局回应学生暴雨天体测800米](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7631123449603473454&enter_from=inspiration)<br>[韩印国宴现场李在镕连忙递上三星手机](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7631367127496441892&enter_from=inspiration) | 70 | [查看](data/2026-04-22.md) |
