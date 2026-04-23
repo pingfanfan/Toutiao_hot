@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-04-23 22:00 | [马斯克证实特斯拉Cybercab已投产](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7630830020151230470&enter_from=inspiration)<br>[特斯拉FSD或将于Q3获批](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7631906511907917363&enter_from=inspiration)<br>[追觅能摸着小米过河吗](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7631105568838369326&enter_from=inspiration)<br>[特斯拉公布Q1财报](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7631906555394297371&enter_from=inspiration)<br>[28家券商豪掷250亿 谁在押注AI](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7631668186270367794&enter_from=inspiration)<br>[警方通报男子驾车与数辆电动车碰撞](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7631873204693106730&enter_from=inspiration) | 100 | [查看](data/2026-04-23.md) |
 | 2026-04-23 20:00 | （无） | 20 | [查看](data/2026-04-23.md) |
 | 2026-04-23 18:00 | （无） | 20 | [查看](data/2026-04-23.md) |
 | 2026-04-23 16:00 | （无） | 20 | [查看](data/2026-04-23.md) |
