@@ -6832,3 +6832,49 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-24.md
+[main 47c2a66] 抓取 2026-04-24 06:00 | 100条 | 相关10条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 154 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   a754ae0..47c2a66  HEAD -> main
+[2026-04-24 06:00:00.928067] 开始抓取...
+✓ 共 100 条，科技/AI/教育相关 10 条
+  ★ 新增 DeepSeek融资为何谁都不想错过 (科技榜第1名) 阅读22.3万
+  ★ 新增 DeepSeek-V4预览版本正式上线 (科技榜第4名) 阅读6.0万
+     马斯克画的饼特斯拉和SpaceX不够分了 (财经榜第6名) 阅读12.5万
+  ★ 新增 朝鲜无人机案检方要求判尹锡悦30年 (国际榜第28名) 阅读4,703
+     俄称北溪一支线技术上仍可对欧供气 (热榜第29名) 阅读4.1万
+  ★ 新增 马斯克证实特斯拉Cybercab已投产 (汽车榜第24名) 阅读29.6万
+  ★ 新增 28家券商豪掷250亿 谁在押注AI (热榜第64名) 阅读8.9万
+     特斯拉公布Q1财报 (汽车榜第36名) 阅读11.4万
+  ★ 新增 小米YU7调节座椅撞碎化妆镜 (汽车榜第39名) 阅读3.7万
+  ★ 新增 大学生为何陷入“疯狂实习” (教育榜第45名) 阅读9,525
+
+★ 发现 7 个新话题，触发 /write-all...
+  → 触发写作：DeepSeek融资为何谁都不想错过
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：DeepSeek-V4预览版本正式上线
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：朝鲜无人机案检方要求判尹锡悦30年
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：马斯克证实特斯拉Cybercab已投产
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：28家券商豪掷250亿 谁在押注AI
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小米YU7调节座椅撞碎化妆镜
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：大学生为何陷入“疯狂实习”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-24.md
