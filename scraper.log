@@ -7217,3 +7217,53 @@ To github.com:pingfanfan/Toutiao_hot.git
   （无新增相关话题）
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-25.md
+[main 718e2d5] 抓取 2026-04-25 02:00 | 50条 | 相关4条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 100 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   de1a47d..718e2d5  HEAD -> main
+[2026-04-25 02:00:01.308520] 开始抓取...
+✓ 共 50 条，科技/AI/教育相关 4 条
+     我国成功发射卫星互联网技术试验卫星 (热榜第1名) 阅读104.4万
+  ★ 新增 泰总理开中国电动车载王毅赴宴 (国际榜第2名) 阅读32.0万
+     DeepSeek融资为何谁都不想错过 (科技榜第14名) 阅读457.2万
+     DeepSeek-V4预览版本正式上线 (科技榜第20名) 阅读438.6万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：泰总理开中国电动车载王毅赴宴
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-25.md
+[2026-04-25 04:00:00.955874] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 262, in main
+    page.goto(URL, wait_until="networkidle", timeout=30000)
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 9054, in goto
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://mp.toutiao.com/profile_v4/activity/hot-selection", waiting until "networkidle"
+
