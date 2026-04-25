@@ -7439,3 +7439,49 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-25.md
+[main f935e84] 抓取 2026-04-25 18:00 | 59条 | 相关10条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 111 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   695d0ca..f935e84  HEAD -> main
+[2026-04-25 18:00:01.355466] 开始抓取...
+✓ 共 59 条，科技/AI/教育相关 10 条
+     火湖大战G3火箭常规时间有绝杀机会 (体育榜第25名) 阅读21.5万
+     记者：火箭选择了最窝囊的死法 (体育榜第29名) 阅读376.5万
+     你认为湖人会横扫火箭吗 (热榜第24名) 阅读681.6万
+  ★ 新增 阿联酋将把50%政府服务转交AI运营 (热榜第25名) 阅读5.6万
+  ★ 新增 苹果后库克时代何去何从 (财经榜第43名) 阅读25.8万
+  ★ 新增 男子网购三星手机被要求激活才能签收 (财经榜第47名) 阅读51.6万
+  ★ 新增 中国火箭发射量10年增长3.8倍 (科技榜第31名) 阅读29.0万
+  ★ 新增 废旧手机回收价格腰斩 (热榜第45名) 阅读8.0万
+  ★ 新增 人工智能大数据如何助力选种 (热榜第56名) 阅读41
+  ★ 新增 中粮科技一季度营收38.79亿元 (热榜第58名) 阅读1
+
+★ 发现 7 个新话题，触发 /write-all...
+  → 触发写作：阿联酋将把50%政府服务转交AI运营
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：苹果后库克时代何去何从
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：男子网购三星手机被要求激活才能签收
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国火箭发射量10年增长3.8倍
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：废旧手机回收价格腰斩
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：人工智能大数据如何助力选种
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中粮科技一季度营收38.79亿元
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-25.md
