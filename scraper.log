@@ -7880,3 +7880,43 @@ To github.com:pingfanfan/Toutiao_hot.git
   （无新增相关话题）
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-26.md
+[main 70faf77] 抓取 2026-04-26 22:00 | 50条 | 相关6条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 92 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   936e126..70faf77  HEAD -> main
+[2026-04-26 22:00:01.036349] 开始抓取...
+✓ 共 50 条，科技/AI/教育相关 6 条
+  ★ 新增 未来只有少数公司能靠AI赚钱吗 (科技榜第7名) 阅读3.3万
+  ★ 新增 AI真的会抢走人的饭碗吗 (科技榜第23名) 阅读1.8万
+  ★ 新增 未来AI平权时代我们如何构建护城河 (科技榜第25名) 阅读225.4万
+  ★ 新增 中国商业航天迈入“量产元年” (科技榜第32名) 阅读11.8万
+  ★ 新增 研究：仅半数社会科学论文结论可复现 (热榜第46名) 阅读5,571
+  ★ 新增 洞察时空发布物理世界“星阙”大模型 (热榜第49名) 阅读779
+
+★ 发现 6 个新话题，触发 /write-all...
+  → 触发写作：未来只有少数公司能靠AI赚钱吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI真的会抢走人的饭碗吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：未来AI平权时代我们如何构建护城河
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国商业航天迈入“量产元年”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：研究：仅半数社会科学论文结论可复现
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：洞察时空发布物理世界“星阙”大模型
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-26.md
