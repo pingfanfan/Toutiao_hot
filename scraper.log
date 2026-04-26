@@ -7741,3 +7741,35 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-26.md
+[main 3f3ae79] 抓取 2026-04-26 12:00 | 60条 | 相关6条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 111 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   f21931b..3f3ae79  HEAD -> main
+[2026-04-26 12:00:00.604221] 开始抓取...
+✓ 共 60 条，科技/AI/教育相关 6 条
+     未来AI平权时代我们如何构建护城河 (科技榜第11名) 阅读114.9万
+     留学博士回国做课题顺便踢苏超 (体育榜第46名) 阅读75.8万
+     中国商业航天迈入“量产元年” (科技榜第32名) 阅读5.3万
+     上海航天领航工厂AI应用率突破60% (科技榜第33名) 阅读2.5万
+  ★ 新增 AI真的会抢走人的饭碗吗 (热榜第56名) 阅读0
+  ★ 新增 大模型能为文学做什么 (热榜第57名) 阅读15
+
+★ 发现 2 个新话题，触发 /write-all...
+  → 触发写作：AI真的会抢走人的饭碗吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：大模型能为文学做什么
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-26.md
