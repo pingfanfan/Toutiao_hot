@@ -8077,3 +8077,34 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-27.md
+[main b63202a] 抓取 2026-04-27 10:00 | 116条 | 相关7条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 171 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   c8fa662..b63202a  HEAD -> main
+[2026-04-27 10:00:00.443685] 开始抓取...
+✓ 共 116 条，科技/AI/教育相关 7 条
+     中信证券：半导体硅片再迎上行周期 (财经榜第49名) 阅读22.4万
+     大学生为救落水父子遇难获五四奖章 (热榜第52名) 阅读13.6万
+     商业航天如何迈向“AI智驾” (科技榜第15名) 阅读3.5万
+  ★ 新增 Science for AI峰会将在硅谷举办 (科技榜第19名) 阅读7,375
+     重庆小学生徒步二十里告别小学时光 (教育榜第25名) 阅读4,550
+     AI真的会抢走人的饭碗吗 (科技榜第32名) 阅读23.7万
+     未来只有少数公司能靠AI赚钱吗 (科技榜第37名) 阅读32.1万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：Science for AI峰会将在硅谷举办
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-27.md
