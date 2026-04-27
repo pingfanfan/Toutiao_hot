@@ -7987,3 +7987,60 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-04-27.md
+[main 2699dd0] 抓取 2026-04-27 04:00 | 70条 | 相关7条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 133 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   2ea16af..2699dd0  HEAD -> main
+[2026-04-27 04:00:00.831160] 开始抓取...
+✓ 共 70 条，科技/AI/教育相关 7 条
+  ★ 新增 大学生为救落水父子遇难获五四奖章 (热榜第21名) 阅读1.2万
+     广东“AI宇宙”加速成形 (科技榜第1名) 阅读2.3万
+     广东“AI宇宙”加速成形 (科技榜第1名) 阅读2.3万
+     中信证券：半导体硅片再迎上行周期 (财经榜第28名) 阅读5,043
+     未来只有少数公司能靠AI赚钱吗 (科技榜第10名) 阅读15.3万
+     商业航天如何迈向“AI智驾” (科技榜第13名) 阅读1,713
+     AI真的会抢走人的饭碗吗 (科技榜第17名) 阅读8.5万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：大学生为救落水父子遇难获五四奖章
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-27.md
+[2026-04-27 06:00:01.092944] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+
