@@ -8804,3 +8804,29 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-04-29.md
+[main 00a5ba2] 抓取 2026-04-29 18:00 | 30条 | 相关2条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 75 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   25a2c97..00a5ba2  HEAD -> main
+[2026-04-29 18:00:01.435423] 开始抓取...
+✓ 共 30 条，科技/AI/教育相关 2 条
+  ★ 新增 OpenAI的“宫斗”与权力游戏 (国际榜第19名) 阅读3.9万
+     太空算力是下一个超级风口吗 (财经榜第42名) 阅读7.7万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：OpenAI的“宫斗”与权力游戏
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-04-29.md
