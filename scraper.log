@@ -9286,3 +9286,58 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-05-01.md
+[main 25da236] 抓取 2026-05-01 06:00 | 20条 | 相关2条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 63 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   ca2cd90..25da236  HEAD -> main
+[2026-05-01 06:00:00.876503] 开始抓取...
+✓ 共 20 条，科技/AI/教育相关 2 条
+  ★ 新增 女子被AI误导闯入响尾蛇窝 (热榜第5名) 阅读7,069
+     闻泰科技将变更为*ST闻泰 (热榜第17名) 阅读88.6万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：女子被AI误导闯入响尾蛇窝
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-05-01.md
+[2026-05-01 08:00:01.128739] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - element is not visible
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+

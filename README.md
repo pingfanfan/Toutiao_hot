@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-05-01 10:00 | [教育局辟谣初中生为保送捐日军罪证](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7633966913101955078&enter_from=inspiration)<br>[女子被AI误导闯入响尾蛇窝](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7634484856417468470&enter_from=inspiration)<br>[全国首个交通管理机器人中队上岗](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7634423336931442707&enter_from=inspiration) | 20 | [查看](data/2026-05-01.md) |
 | 2026-05-01 06:00 | [女子被AI误导闯入响尾蛇窝](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7634484856417468470&enter_from=inspiration)<br>[闻泰科技将变更为*ST闻泰](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7634557457460629035&enter_from=inspiration) | 20 | [查看](data/2026-05-01.md) |
 | 2026-05-01 04:00 | [闻泰科技将变更为*ST闻泰](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7634557457460629035&enter_from=inspiration)<br>[为车主五一不抢桩 “特斯拉们”有多拼](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7634532862527540782&enter_from=inspiration) | 20 | [查看](data/2026-05-01.md) |
 | 2026-05-01 00:00 | [闻泰科技将变更为*ST闻泰](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7634557457460629035&enter_from=inspiration) | 20 | [查看](data/2026-05-01.md) |
