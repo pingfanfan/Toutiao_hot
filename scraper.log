@@ -9370,3 +9370,49 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ✓ GitHub Issue 通知已发送
 ✓ 已保存并推送：data/2026-05-01.md
+[main 94cafe3] 抓取 2026-05-01 12:00 | 50条 | 相关10条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 104 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   e7a18b5..94cafe3  HEAD -> main
+[2026-05-01 12:00:01.083173] 开始抓取...
+✓ 共 50 条，科技/AI/教育相关 10 条
+     教育局辟谣初中生为保送捐日军罪证 (教育榜第15名) 阅读6.4万
+     全国首个交通管理机器人中队上岗 (科技榜第1名) 阅读79.5万
+  ★ 新增 闻泰科技“披星戴帽”背后 (财经榜第13名) 阅读1.6万
+     女子被AI误导闯入响尾蛇窝 (热榜第17名) 阅读12.4万
+  ★ 新增 硬科技龙头的H股为何贵过A股 (财经榜第42名) 阅读2.4万
+  ★ 新增 闻泰科技将变更为*ST闻泰 (热榜第32名) 阅读119.5万
+  ★ 新增 微软AI业务年收入超370亿美元 (科技榜第36名) 阅读7.5万
+  ★ 新增 为车主五一不抢桩 “特斯拉们”有多拼 (汽车榜第35名) 阅读68.7万
+  ★ 新增 泰国会引进中国SR-5火箭炮吗 (军事榜第49名) 阅读9.1万
+  ★ 新增 距离跑通商业航天闭环还有多远 (热榜第47名) 阅读14.7万
+
+★ 发现 7 个新话题，触发 /write-all...
+  → 触发写作：闻泰科技“披星戴帽”背后
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：硬科技龙头的H股为何贵过A股
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：闻泰科技将变更为*ST闻泰
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：微软AI业务年收入超370亿美元
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：为车主五一不抢桩 “特斯拉们”有多拼
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：泰国会引进中国SR-5火箭炮吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：距离跑通商业航天闭环还有多远
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-05-01.md
