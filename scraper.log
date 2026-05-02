@@ -9607,3 +9607,58 @@ Call log:
     - scrolling into view if needed
     - done scrolling
 
+[main dfdcb21] 抓取 2026-05-02 04:00 | 57条 | 相关7条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 134 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   3119d3e..dfdcb21  HEAD -> main
+[2026-05-02 04:00:00.874686] 开始抓取...
+✓ 共 57 条，科技/AI/教育相关 7 条
+     女子被AI误导闯入响尾蛇窝 (热榜第20名) 阅读39.9万
+  ★ 新增 iPhone Air销量惨淡劝退同行 (科技榜第4名) 阅读3,705
+     闻泰科技“披星戴帽”背后 (财经榜第37名) 阅读107.7万
+     全国首个交通管理机器人中队上岗 (科技榜第19名) 阅读513.9万
+     AI时代我们应如何看待劳动者 (科技榜第34名) 阅读1.8万
+     硬科技龙头的H股为何贵过A股 (热榜第48名) 阅读18.5万
+     教育局辟谣初中生为保送捐日军罪证 (热榜第55名) 阅读20.3万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：iPhone Air销量惨淡劝退同行
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+✓ GitHub Issue 通知已发送
+✓ 已保存并推送：data/2026-05-02.md
+[2026-05-02 06:00:01.159547] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 51, in scrape_items
+    page.wait_for_selector("a[href*='toutiao.com/trending/']", timeout=15000)
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 8217, in wait_for_selector
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("a[href*='toutiao.com/trending/']") to be visible
+
