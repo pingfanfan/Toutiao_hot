@@ -12415,3 +12415,56 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-09.md
+[main b2b95ea] 抓取 2026-05-09 08:00 | 80条 | 相关5条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 129 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   1b8e713..b2b95ea  HEAD -> main
+[2026-05-09 08:00:00.587588] 开始抓取...
+✓ 共 80 条，科技/AI/教育相关 5 条
+     我国第四代自主超导量子计算机上线 (科技榜第2名) 阅读8.3万
+     CPU芯片市场正迎来一轮高涨行情 (科技榜第4名) 阅读5.3万
+  ★ 新增 小米回应保时捷纽北超越SU7 Ultra (汽车榜第10名) 阅读1.6万
+  ★ 新增 3名中学生教科书式处置火情获表彰 (热榜第45名) 阅读4.1万
+     商业银行为何扎堆发卫星 (热榜第60名) 阅读33.3万
+
+★ 发现 2 个新话题，触发 /write-all...
+  → 触发写作：小米回应保时捷纽北超越SU7 Ultra
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：3名中学生教科书式处置火情获表彰
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-09.md
+[2026-05-09 10:00:01.118883] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 262, in main
+    page.goto(URL, wait_until="networkidle", timeout=30000)
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 9054, in goto
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://mp.toutiao.com/profile_v4/activity/hot-selection", waiting until "networkidle"
+
