@@ -13463,3 +13463,50 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-12.md
+[main 2219248] 抓取 2026-05-12 04:00 | 60条 | 相关11条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 120 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   8257cc0..2219248  HEAD -> main
+[2026-05-12 04:00:01.248893] 开始抓取...
+✓ 共 60 条，科技/AI/教育相关 11 条
+  ★ 新增 差点死掉的玻璃厂凭什么成AI的神经 (科技榜第1名) 阅读8.0万
+     韩国为何成半导体行情核心引擎 (财经榜第4名) 阅读33.0万
+  ★ 新增 博主：AI最“难啃”的骨头是工厂 (科技榜第9名) 阅读1.1万
+     AI正把韩国推成全球最疯狂牛市 (财经榜第29名) 阅读83.2万
+  ★ 新增 芯片出口不靠走量靠涨价吗 (科技榜第17名) 阅读631
+     媒体评新能源汽车维修遭垄断 (汽车榜第12名) 阅读21.6万
+     海力士是怎么变成最赚钱芯片公司的 (科技榜第22名) 阅读23.8万
+  ★ 新增 光迅科技接过追光赛道领涨大旗背后 (热榜第49名) 阅读66.0万
+  ★ 新增 多款AI虚拟伴侣App被指存低俗内容 (热榜第53名) 阅读10.4万
+  ★ 新增 进入太空后航天员为何会“胖”一圈 (热榜第57名) 阅读266.5万
+  ★ 新增 芯片产业最大金主们花钱逻辑变了吗 (热榜第59名) 阅读30.5万
+
+★ 发现 7 个新话题，触发 /write-all...
+  → 触发写作：差点死掉的玻璃厂凭什么成AI的神经
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：博主：AI最“难啃”的骨头是工厂
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：芯片出口不靠走量靠涨价吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：光迅科技接过追光赛道领涨大旗背后
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：多款AI虚拟伴侣App被指存低俗内容
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：进入太空后航天员为何会“胖”一圈
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：芯片产业最大金主们花钱逻辑变了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-12.md
