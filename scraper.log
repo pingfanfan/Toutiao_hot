@@ -14035,3 +14035,47 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-13.md
+[main 8e0a938] 抓取 2026-05-13 18:00 | 103条 | 相关14条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 187 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   f5cde24..8e0a938  HEAD -> main
+[2026-05-13 18:00:01.435004] 开始抓取...
+✓ 共 103 条，科技/AI/教育相关 14 条
+     闻泰科技就安世争端索赔80亿美元 (财经榜第2名) 阅读6.9万
+  ★ 新增 阿里AI投入的商业化回报拐点到来了吗 (财经榜第14名) 阅读2.9万
+     大摩：AI基建迈向“万亿美元时代” (财经榜第22名) 阅读3.7万
+     巴厘岛猴子抢游客手机留下自拍视频 (国际榜第35名) 阅读3.4万
+     “十五五”中国算力何以突围 (财经榜第48名) 阅读8.5万
+     小米发布自动驾驶模型Xiaomi OneVL (科技榜第22名) 阅读6.7万
+     贾跃亭“新饼”瞄准机器人 (科技榜第33名) 阅读4.4万
+     AI造富时代为何要保持定力 (热榜第74名) 阅读14.9万
+     深圳：硬科技与强外贸的协奏 (热榜第75名) 阅读33.6万
+  ★ 新增 微信聊天记录能喂给AI了 (热榜第76名) 阅读790
+     人形机器人续航问题怎么破 (热榜第79名) 阅读7,996
+     欧洲芯片梦破了吗 (热榜第80名) 阅读5.2万
+  ★ 新增 女孩开发AI小程序帮老人记录人生 (热榜第94名) 阅读3
+  ★ 新增 博主：晨光文具不能光靠学生了 (热榜第99名) 阅读1,153
+
+★ 发现 4 个新话题，触发 /write-all...
+  → 触发写作：阿里AI投入的商业化回报拐点到来了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：微信聊天记录能喂给AI了
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：女孩开发AI小程序帮老人记录人生
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：博主：晨光文具不能光靠学生了
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-13.md
