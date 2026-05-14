@@ -14504,3 +14504,37 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-14.md
+[main 6375800] 抓取 2026-05-14 20:00 | 40条 | 相关6条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 87 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   82f6bfa..6375800  HEAD -> main
+[2026-05-14 20:00:00.868615] 开始抓取...
+✓ 共 40 条，科技/AI/教育相关 6 条
+     任泽平谈科技牛还能走多远 (财经榜第23名) 阅读4.2万
+     任泽平谈科技牛还能走多远 (财经榜第23名) 阅读4.2万
+  ★ 新增 大学封闭管理背后的困境 (教育榜第7名) 阅读3.0万
+     广东2026年高考时间确定 (教育榜第11名) 阅读4.5万
+  ★ 新增 扶我青云志在高考具象化了 (教育榜第12名) 阅读24.6万
+  ★ 新增 腾讯和苹果都在等待秋天 (科技榜第18名) 阅读7,062
+
+★ 发现 3 个新话题，触发 /write-all...
+  → 触发写作：大学封闭管理背后的困境
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：扶我青云志在高考具象化了
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：腾讯和苹果都在等待秋天
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-14.md
