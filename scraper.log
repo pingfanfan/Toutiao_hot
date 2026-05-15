@@ -14929,3 +14929,67 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-15.md
+[main 182e95e] 抓取 2026-05-15 22:00 | 129条 | 相关16条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 189 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   de02088..182e95e  HEAD -> main
+[2026-05-15 22:00:00.531532] 开始抓取...
+✓ 共 129 条，科技/AI/教育相关 16 条
+     AI叙事如何改写美股逻辑 (财经榜第31名) 阅读19.3万
+     苹果为什么要开始“去台积电”化 (财经榜第38名) 阅读440.1万
+  ★ 新增 高端手机市场战事升级 (财经榜第45名) 阅读659.0万
+     俄称拉脱维亚政府垮台因放任乌无人机 (热榜第46名) 阅读10.6万
+  ★ 新增 第一批卖掉股份的OpenAI员工怎样了 (热榜第48名) 阅读70.5万
+  ★ 新增 德乌联合生产远程无人机传递何信号 (军事榜第8名) 阅读21.0万
+  ★ 新增 太空算力启动商业航天赛道第二波浪潮 (科技榜第16名) 阅读41.4万
+  ★ 新增 今年甘肃21.87万名考生报名参加高考 (教育榜第22名) 阅读9,100
+  ★ 新增 挑战英伟达？Cerebras杀入AI算力核心 (热榜第84名) 阅读10.1万
+  ★ 新增 三部门部署加强新能源汽车安全管理 (汽车榜第45名) 阅读8,299
+  ★ 新增 《药品试验数据保护实施办法》发布 (健康榜第31名) 阅读3.4万
+  ★ 新增 中国芯片出口爆发背后 (科技榜第50名) 阅读14.8万
+  ★ 新增 苹果为何迟迟不发布折叠屏手机 (热榜第101名) 阅读5.5万
+  ★ 新增 印度经济数据到底靠不靠谱 (热榜第106名) 阅读46.8万
+  ★ 新增 媒体评大学生驱车1300公里送校友奔丧 (热榜第118名) 阅读3.9万
+  ★ 新增 腾讯云如何打通AI Infra的生态底座 (热榜第121名) 阅读4,470
+
+★ 发现 13 个新话题，触发 /write-all...
+  → 触发写作：高端手机市场战事升级
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：第一批卖掉股份的OpenAI员工怎样了
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：德乌联合生产远程无人机传递何信号
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：太空算力启动商业航天赛道第二波浪潮
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：今年甘肃21.87万名考生报名参加高考
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：挑战英伟达？Cerebras杀入AI算力核心
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：三部门部署加强新能源汽车安全管理
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：《药品试验数据保护实施办法》发布
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国芯片出口爆发背后
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：苹果为何迟迟不发布折叠屏手机
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：印度经济数据到底靠不靠谱
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：媒体评大学生驱车1300公里送校友奔丧
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：腾讯云如何打通AI Infra的生态底座
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-15.md
