@@ -15422,3 +15422,53 @@ Call log:
   - retrying click action
     - waiting for element to be visible, enabled and stable
 
+[main 889c2d4] 抓取 2026-05-17 00:00 | 120条 | 相关17条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 242 insertions(+), 1 deletion(-)
+ create mode 100644 data/2026-05-17.md
+To github.com:pingfanfan/Toutiao_hot.git
+   f0e5b17..889c2d4  HEAD -> main
+[2026-05-17 00:00:00.723486] 开始抓取...
+✓ 共 120 条，科技/AI/教育相关 17 条
+     光纤为何突然成AI军备竞赛硬通货 (科技榜第3名) 阅读14.2万
+     俄方称击落20架接近莫斯科的无人机 (军事榜第2名) 阅读10.2万
+     日本人形机器人为何掉队 (娱乐榜第9名) 阅读13.1万
+     评论员谈武汉大学取消入校预约 (教育榜第4名) 阅读3.8万
+     美军AIM-260导弹高清照能看出什么 (军事榜第11名) 阅读13.1万
+     手机厂商“逆势”降价背后的逻辑 (科技榜第9名) 阅读27.1万
+     女子救落水儿童手机报废遭甩锅 (财经榜第40名) 阅读57.8万
+     你认为火箭队会交易申京吗 (体育榜第43名) 阅读3.0万
+  ★ 新增 算力会成为21世纪的最大商品吗 (热榜第73名) 阅读4.2万
+     AI真的开始打工赚钱了 (科技榜第27名) 阅读31.3万
+     AI时代第一场“收税战争”开始了吗 (科技榜第31名) 阅读30.4万
+     液冷正成为数据中心必选项吗 (科技榜第49名) 阅读11.8万
+  ★ 新增 中高考考前如何心理调解 (教育榜第40名) 阅读6,789
+  ★ 新增 4月社融数据点评 (热榜第98名) 阅读27.6万
+  ★ 新增 上海一大学食堂窗口可先食后付 (教育榜第48名) 阅读3.7万
+  ★ 新增 学生请假回家在外省坠亡父母起诉学校 (热榜第108名) 阅读1.5万
+     中国新能源产品热销澳大利亚 (热榜第118名) 阅读187
+
+★ 发现 5 个新话题，触发 /write-all...
+  → 触发写作：算力会成为21世纪的最大商品吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中高考考前如何心理调解
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：4月社融数据点评
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：上海一大学食堂窗口可先食后付
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：学生请假回家在外省坠亡父母起诉学校
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-17.md
