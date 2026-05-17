@@ -15590,3 +15590,79 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-17.md
+[main 3e1eeb7] 抓取 2026-05-17 08:00 | 120条 | 相关22条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 193 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   44dd964..3e1eeb7  HEAD -> main
+[2026-05-17 08:00:00.835091] 开始抓取...
+✓ 共 120 条，科技/AI/教育相关 22 条
+  ★ 新增 AI算力产业链正批量“造富” (财经榜第3名) 阅读4.3万
+     光纤怎么就卡住了美国算力的脖子 (科技榜第1名) 阅读8.5万
+     业内人士：AI算力的本质是石油 (财经榜第10名) 阅读6.9万
+     境外间谍对我稀土AI等领域实施窃密 (科技榜第3名) 阅读56.7万
+     AI芯片公司Cerebras凭什么炸翻美股 (财经榜第12名) 阅读2.7万
+     Token经济学：AI时代的新货币战争 (科技榜第14名) 阅读9,351
+     全国首例机器人保险理赔在沪落地 (热榜第34名) 阅读4.2万
+  ★ 新增 算力会成为21世纪的最大商品吗 (热榜第44名) 阅读15.8万
+  ★ 新增 女子救落水儿童手机报废遭甩锅 (热榜第45名) 阅读105.0万
+  ★ 新增 光纤为何突然成AI军备竞赛硬通货 (科技榜第28名) 阅读41.8万
+  ★ 新增 手机厂商“逆势”降价背后的逻辑 (科技榜第30名) 阅读82.8万
+  ★ 新增 美军AIM-260导弹高清照能看出什么 (军事榜第15名) 阅读35.4万
+  ★ 新增 AI预测胎儿长相成生意：每张5元 (科技榜第37名) 阅读350
+  ★ 新增 苹果华为小米为何集体降价 (科技榜第38名) 阅读307
+  ★ 新增 国家反诈中心App上线AI内容鉴定功能 (热榜第64名) 阅读1,167
+  ★ 新增 评论员谈武汉大学取消入校预约 (教育榜第23名) 阅读14.2万
+  ★ 新增 日本人形机器人为何掉队 (娱乐榜第36名) 阅读29.1万
+  ★ 新增 中国新能源产品热销澳大利亚 (汽车榜第27名) 阅读3.6万
+  ★ 新增 阿里腾讯京东的三种AI焦虑 (热榜第98名) 阅读951
+  ★ 新增 学生请假回家在外省坠亡父母起诉学校 (热榜第106名) 阅读2.8万
+  ★ 新增 中高考考前如何心理调解 (热榜第107名) 阅读1.3万
+  ★ 新增 多模态大模型可能一直在“带伤训练” (热榜第111名) 阅读12
+
+★ 发现 16 个新话题，触发 /write-all...
+  → 触发写作：AI算力产业链正批量“造富”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：算力会成为21世纪的最大商品吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：女子救落水儿童手机报废遭甩锅
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：光纤为何突然成AI军备竞赛硬通货
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：手机厂商“逆势”降价背后的逻辑
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：美军AIM-260导弹高清照能看出什么
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI预测胎儿长相成生意：每张5元
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：苹果华为小米为何集体降价
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：国家反诈中心App上线AI内容鉴定功能
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：评论员谈武汉大学取消入校预约
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：日本人形机器人为何掉队
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国新能源产品热销澳大利亚
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：阿里腾讯京东的三种AI焦虑
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：学生请假回家在外省坠亡父母起诉学校
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中高考考前如何心理调解
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：多模态大模型可能一直在“带伤训练”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-17.md
