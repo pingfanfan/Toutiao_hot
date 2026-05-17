@@ -15847,3 +15847,34 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-17.md
+[main 892d58a] 抓取 2026-05-17 20:00 | 65条 | 相关10条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 138 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   a618989..892d58a  HEAD -> main
+[2026-05-17 20:00:01.051170] 开始抓取...
+✓ 共 65 条，科技/AI/教育相关 10 条
+     算力四虎造富记 (财经榜第22名) 阅读8.7万
+     光纤怎么就卡住了美国算力的脖子 (科技榜第14名) 阅读86.2万
+     AI算力产业链正批量“造富” (财经榜第48名) 阅读82.4万
+     境外间谍对我稀土AI等领域实施窃密 (科技榜第17名) 阅读169.7万
+     业内人士：AI算力的本质是石油 (热榜第34名) 阅读61.1万
+     Token经济学：AI时代的新货币战争 (科技榜第27名) 阅读22.0万
+     阿里腾讯京东的三种AI焦虑 (热榜第44名) 阅读1.9万
+     燃油车降价新能源车提价背后的趋势 (汽车榜第37名) 阅读562
+     《金融法》将给金融科技发展带来什么 (热榜第64名) 阅读81
+     多模态大模型可能一直在“带伤训练” (热榜第65名) 阅读2,551
+  （无新增相关话题）
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-17.md
