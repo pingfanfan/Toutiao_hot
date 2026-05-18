@@ -16066,3 +16066,55 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-18.md
+[main 8ec92a9] 抓取 2026-05-18 08:00 | 80条 | 相关12条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 142 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   8d1103b..8ec92a9  HEAD -> main
+[2026-05-18 08:00:00.471357] 开始抓取...
+✓ 共 80 条，科技/AI/教育相关 12 条
+  ★ 新增 AI如何拉动韩国股市 (财经榜第14名) 阅读1.0万
+     OpenAI为何造手机 (科技榜第4名) 阅读11.7万
+     太空算力竞赛什么芯片才能上场 (科技榜第11名) 阅读6.7万
+  ★ 新增 科普博主接连举报多名教授学术造假 (教育榜第6名) 阅读1,277
+  ★ 新增 赛意信息拟200亿跨界算力 钱从哪来 (热榜第29名) 阅读4,325
+     我国成功发射千帆星座第九批组网卫星 (科技榜第19名) 阅读16.2万
+  ★ 新增 卢伟冰谈手机涨价 (热榜第33名) 阅读647
+  ★ 新增 中国大模型估值集体暴走 谁在押注 (热榜第55名) 阅读213
+  ★ 新增 极壳科技融资1.2亿美元 (热榜第62名) 阅读123
+  ★ 新增 海外AI剧底层逻辑：如何爆火 (热榜第64名) 阅读85
+  ★ 新增 一场千人大会看到东北人的AI野心 (热榜第68名) 阅读232
+  ★ 新增 澜起科技为何能超越行业水平市盈率 (热榜第73名) 阅读26
+
+★ 发现 9 个新话题，触发 /write-all...
+  → 触发写作：AI如何拉动韩国股市
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：科普博主接连举报多名教授学术造假
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：赛意信息拟200亿跨界算力 钱从哪来
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：卢伟冰谈手机涨价
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国大模型估值集体暴走 谁在押注
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：极壳科技融资1.2亿美元
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：海外AI剧底层逻辑：如何爆火
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：一场千人大会看到东北人的AI野心
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：澜起科技为何能超越行业水平市盈率
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-18.md
