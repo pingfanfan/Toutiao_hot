@@ -15991,3 +15991,43 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-18.md
+[main e2d009e] 抓取 2026-05-18 04:00 | 70条 | 相关12条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 134 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   5211a05..e2d009e  HEAD -> main
+[2026-05-18 04:00:01.492030] 开始抓取...
+✓ 共 70 条，科技/AI/教育相关 12 条
+  ★ 新增 太空算力竞赛什么芯片才能上场 (科技榜第2名) 阅读4,649
+  ★ 新增 OpenAI为何造手机 (科技榜第4名) 阅读4,886
+     我国成功发射千帆星座第九批组网卫星 (科技榜第5名) 阅读8.2万
+     我国人工智能相关产品拉动外贸增长 (财经榜第42名) 阅读3,674
+     光纤怎么就卡住了美国算力的脖子 (科技榜第19名) 阅读131.7万
+     Token经济学：AI时代的新货币战争 (科技榜第22名) 阅读52.5万
+     业内人士：AI算力的本质是石油 (热榜第38名) 阅读86.9万
+     AI算力产业链正批量“造富” (热榜第43名) 阅读120.3万
+     阿里腾讯京东的三种AI焦虑 (热榜第47名) 阅读4.8万
+  ★ 新增 科技保险驶入深水区 (热榜第56名) 阅读6
+     国家反诈中心App上线AI内容鉴定功能 (热榜第58名) 阅读1.5万
+     多模态大模型可能一直在“带伤训练” (热榜第67名) 阅读8,147
+
+★ 发现 3 个新话题，触发 /write-all...
+  → 触发写作：太空算力竞赛什么芯片才能上场
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：OpenAI为何造手机
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：科技保险驶入深水区
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-18.md
