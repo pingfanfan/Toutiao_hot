@@ -15912,3 +15912,45 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-17.md
+[main 9c81bb2] 抓取 2026-05-18 00:00 | 66条 | 相关13条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 129 insertions(+), 1 deletion(-)
+ create mode 100644 data/2026-05-18.md
+To github.com:pingfanfan/Toutiao_hot.git
+   2c45e5c..9c81bb2  HEAD -> main
+[2026-05-18 00:00:01.807235] 开始抓取...
+✓ 共 66 条，科技/AI/教育相关 13 条
+     算力四虎造富记 (财经榜第22名) 阅读15.7万
+     光纤怎么就卡住了美国算力的脖子 (科技榜第12名) 阅读102.7万
+     境外间谍对我稀土AI等领域实施窃密 (科技榜第15名) 阅读190.6万
+     业内人士：AI算力的本质是石油 (财经榜第48名) 阅读72.0万
+     AI算力产业链正批量“造富” (热榜第30名) 阅读99.8万
+     Token经济学：AI时代的新货币战争 (科技榜第27名) 阅读32.0万
+     阿里腾讯京东的三种AI焦虑 (热榜第45名) 阅读2.6万
+     全国首例机器人保险理赔在沪落地 (热榜第48名) 阅读8.9万
+  ★ 新增 国家反诈中心App上线AI内容鉴定功能 (热榜第54名) 阅读1.3万
+  ★ 新增 AI预测胎儿长相成生意：每张5元 (热榜第56名) 阅读2,900
+     燃油车降价新能源车提价背后的趋势 (汽车榜第35名) 阅读687
+     《金融法》将给金融科技发展带来什么 (热榜第60名) 阅读81
+  ★ 新增 多模态大模型可能一直在“带伤训练” (热榜第62名) 阅读3,438
+
+★ 发现 3 个新话题，触发 /write-all...
+  → 触发写作：国家反诈中心App上线AI内容鉴定功能
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI预测胎儿长相成生意：每张5元
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：多模态大模型可能一直在“带伤训练”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-18.md
