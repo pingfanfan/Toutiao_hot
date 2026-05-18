@@ -16118,3 +16118,44 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-18.md
+[main afb9455] 抓取 2026-05-18 10:00 | 80条 | 相关11条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 158 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   8ec92a9..afb9455  HEAD -> main
+[2026-05-18 10:00:01.144147] 开始抓取...
+✓ 共 80 条，科技/AI/教育相关 11 条
+     科普博主接连举报多名教授学术造假 (教育榜第3名) 阅读32.1万
+     卢伟冰谈手机涨价 (财经榜第11名) 阅读5.8万
+     澜起科技为何能超越行业水平市盈率 (财经榜第19名) 阅读2.8万
+  ★ 新增 半导体行情引发韩国AI收益分红讨论 (财经榜第23名) 阅读2.0万
+     AI如何拉动韩国股市 (财经榜第31名) 阅读5.5万
+     OpenAI为何造手机 (科技榜第16名) 阅读21.9万
+     太空算力竞赛什么芯片才能上场 (科技榜第29名) 阅读8.3万
+     我国成功发射千帆星座第九批组网卫星 (科技榜第36名) 阅读19.4万
+  ★ 新增 你支持大学校园向社会公众开放吗 (教育榜第31名) 阅读158
+  ★ 新增 618华为苹果正面对决 (热榜第72名) 阅读94
+  ★ 新增 从首飞到量产：中国商业航天的考验 (热榜第79名) 阅读1
+
+★ 发现 4 个新话题，触发 /write-all...
+  → 触发写作：半导体行情引发韩国AI收益分红讨论
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：你支持大学校园向社会公众开放吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：618华为苹果正面对决
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：从首飞到量产：中国商业航天的考验
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-18.md
