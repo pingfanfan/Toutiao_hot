@@ -16649,3 +16649,57 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-19.md
+[main 3654fac] 抓取 2026-05-19 10:00 | 70条 | 相关14条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 133 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   66c1ff8..3654fac  HEAD -> main
+[2026-05-19 10:00:01.142524] 开始抓取...
+✓ 共 70 条，科技/AI/教育相关 14 条
+  ★ 新增 无人机在黑海击中中国货船？中方回应 (国际榜第1名) 阅读335.8万
+  ★ 新增 半导体龙头沪硅产业涨停 (财经榜第6名) 阅读3.4万
+  ★ 新增 亏损房企沾科技概念成“妖股” (财经榜第14名) 阅读11.0万
+     长鑫科技业绩飙升引爆存储产业链 (财经榜第17名) 阅读39.2万
+     雷军点赞小米首席测试车手任周灿 (汽车榜第11名) 阅读10.7万
+  ★ 新增 考研人数连年下滑 学历不值钱了吗 (教育榜第11名) 阅读1.3万
+  ★ 新增 考研人数连年下滑 学历不值钱了吗 (教育榜第11名) 阅读1.3万
+     印度为何急于下场芯片与AI赛道 (热榜第32名) 阅读6.2万
+  ★ 新增 华为是玛莎拉蒂的“技术解药”吗 (汽车榜第30名) 阅读1,099
+     乌克兰穷办法逼出战争新算法 (军事榜第24名) 阅读184.8万
+     特朗普为何大举加仓AI产业链 (热榜第58名) 阅读77.8万
+  ★ 新增 卫星能看清车牌？专家辟谣 (热榜第60名) 阅读458
+  ★ 新增 中国算力要复制5G的故事了吗 (热榜第66名) 阅读24.6万
+  ★ 新增 华为畅享90为何大卖 (热榜第67名) 阅读24.1万
+
+★ 发现 9 个新话题，触发 /write-all...
+  → 触发写作：无人机在黑海击中中国货船？中方回应
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：半导体龙头沪硅产业涨停
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：亏损房企沾科技概念成“妖股”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：考研人数连年下滑 学历不值钱了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：考研人数连年下滑 学历不值钱了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：华为是玛莎拉蒂的“技术解药”吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：卫星能看清车牌？专家辟谣
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国算力要复制5G的故事了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：华为畅享90为何大卖
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-19.md
