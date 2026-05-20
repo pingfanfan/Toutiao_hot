@@ -16965,3 +16965,46 @@ Call log:
   - retrying click action
     - waiting for element to be visible, enabled and stable
 
+[main 2744d2b] 抓取 2026-05-20 02:00 | 116条 | 相关18条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 254 insertions(+), 1 deletion(-)
+ create mode 100644 data/2026-05-20.md
+To github.com:pingfanfan/Toutiao_hot.git
+   915a274..2744d2b  HEAD -> main
+[2026-05-20 02:00:00.752148] 开始抓取...
+✓ 共 116 条，科技/AI/教育相关 18 条
+     闪充技术能否扭转腾势N9高开低走局面 (汽车榜第4名) 阅读44.9万
+     无人机在黑海击中中国货船？中方回应 (国际榜第29名) 阅读754.0万
+     男子打车叫到特斯拉来的却是比亚迪 (热榜第26名) 阅读44.1万
+     博主：AI又把光纤价格炒疯了 (热榜第30名) 阅读18.2万
+     年内超170亿“撤离”机器人主题ETF (热榜第35名) 阅读18.0万
+     OpenAI胜诉之后IPO前景仍存变数 (热榜第38名) 阅读8.7万
+     长鑫科技业绩飙升引爆存储产业链 (热榜第39名) 阅读451.9万
+     华为是玛莎拉蒂的“技术解药”吗 (汽车榜第8名) 阅读33.9万
+     34家AI创业公司一年狂揽800亿美元 (科技榜第40名) 阅读28.1万
+     618手机厂商上演“三国杀” (热榜第58名) 阅读5.8万
+     卫星能看清车牌？专家辟谣 (科技榜第50名) 阅读21.3万
+     雷军点赞小米首席测试车手任周灿 (汽车榜第22名) 阅读125.3万
+     印度为何急于下场芯片与AI赛道 (热榜第76名) 阅读26.9万
+     官方通报老人被指碰瓷学生 (热榜第79名) 阅读15.7万
+     考研人数连年下滑 学历不值钱了吗 (教育榜第26名) 阅读7.8万
+     AI中转站到底是啥 (热榜第92名) 阅读6.6万
+     车主起诉特斯拉虚假宣传胜诉 (热榜第103名) 阅读4.1万
+  ★ 新增 汽车AI语音助手陷入油腻营销怪圈 (热榜第104名) 阅读8,617
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：汽车AI语音助手陷入油腻营销怪圈
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-20.md
