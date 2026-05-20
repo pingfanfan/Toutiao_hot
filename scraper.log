@@ -16861,3 +16861,107 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-19.md
+[main 915a274] 抓取 2026-05-19 22:00 | 140条 | 相关21条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 212 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   d27d202..915a274  HEAD -> main
+[2026-05-19 22:00:01.055063] 开始抓取...
+✓ 共 140 条，科技/AI/教育相关 21 条
+     无人机在黑海击中中国货船？中方回应 (国际榜第15名) 阅读724.3万
+     闪充技术能否扭转腾势N9高开低走局面 (汽车榜第4名) 阅读18.3万
+     年内超170亿“撤离”机器人主题ETF (财经榜第20名) 阅读8.6万
+     男子打车叫到特斯拉来的却是比亚迪 (热榜第22名) 阅读29.0万
+     博主：AI又把光纤价格炒疯了 (财经榜第24名) 阅读5.7万
+  ★ 新增 长鑫科技业绩飙升引爆存储产业链 (财经榜第31名) 阅读357.0万
+  ★ 新增 OpenAI胜诉之后IPO前景仍存变数 (财经榜第36名) 阅读3.8万
+  ★ 新增 34家AI创业公司一年狂揽800亿美元 (科技榜第23名) 阅读17.1万
+  ★ 新增 卫星能看清车牌？专家辟谣 (科技榜第24名) 阅读12.0万
+  ★ 新增 雷军点赞小米首席测试车手任周灿 (汽车榜第14名) 阅读107.0万
+  ★ 新增 618手机厂商上演“三国杀” (热榜第62名) 阅读1.8万
+  ★ 新增 华为是玛莎拉蒂的“技术解药”吗 (汽车榜第17名) 阅读11.7万
+  ★ 新增 印度为何急于下场芯片与AI赛道 (热榜第86名) 阅读20.3万
+  ★ 新增 官方通报老人被指碰瓷学生 (热榜第98名) 阅读12.6万
+  ★ 新增 AI中转站到底是啥 (热榜第110名) 阅读3.7万
+  ★ 新增 中国企业能在6G时代“反杀”高通吗 (热榜第113名) 阅读1.4万
+  ★ 新增 众合科技澄清：无磷化铟及光芯片业务 (热榜第116名) 阅读7.8万
+  ★ 新增 考研人数连年下滑 学历不值钱了吗 (热榜第119名) 阅读5.4万
+  ★ 新增 把数据中心建在海上有什么优势 (热榜第123名) 阅读4,020
+  ★ 新增 车主起诉特斯拉虚假宣传胜诉 (热榜第124名) 阅读3.6万
+  ★ 新增 全国首个人工智能开源生态运营班开班 (热榜第127名) 阅读114
+
+★ 发现 16 个新话题，触发 /write-all...
+  → 触发写作：长鑫科技业绩飙升引爆存储产业链
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：OpenAI胜诉之后IPO前景仍存变数
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：34家AI创业公司一年狂揽800亿美元
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：卫星能看清车牌？专家辟谣
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：雷军点赞小米首席测试车手任周灿
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：618手机厂商上演“三国杀”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：华为是玛莎拉蒂的“技术解药”吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：印度为何急于下场芯片与AI赛道
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：官方通报老人被指碰瓷学生
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI中转站到底是啥
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国企业能在6G时代“反杀”高通吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：众合科技澄清：无磷化铟及光芯片业务
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：考研人数连年下滑 学历不值钱了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：把数据中心建在海上有什么优势
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：车主起诉特斯拉虚假宣传胜诉
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：全国首个人工智能开源生态运营班开班
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-19.md
+[2026-05-20 00:00:00.746749] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - element is not visible
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+
