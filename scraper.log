@@ -17683,3 +17683,47 @@ playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
 Call log:
   - navigating to "https://mp.toutiao.com/profile_v4/activity/hot-selection", waiting until "networkidle"
 
+[main 76f248b] 抓取 2026-05-21 22:00 | 120条 | 相关18条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 243 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   cd43d69..76f248b  HEAD -> main
+[2026-05-21 22:00:00.950671] 开始抓取...
+✓ 共 120 条，科技/AI/教育相关 18 条
+     投了长鑫科技 合肥赚了一个合肥 (财经榜第11名) 阅读129.7万
+     小米发布首款耳夹式耳机 (科技榜第4名) 阅读24.6万
+     小米YU7新增标准版上市 (汽车榜第5名) 阅读41.5万
+     俄中部炼油厂遭无人机袭击被迫停产 (国际榜第29名) 阅读6.0万
+     三星化解“AI红利”罢工危机 (财经榜第25名) 阅读18.1万
+     乌无人机袭击俄本土为何北约深受其害 (军事榜第10名) 阅读71.8万
+     俄高等经济大学校长谈“俄中教育年” (国际榜第39名) 阅读8.5万
+     中国为何坚持大力发展新能源车 (汽车榜第15名) 阅读25.7万
+     教育部拟同意设置34所本科高校 (教育榜第11名) 阅读8.9万
+     外资抢筹中国硬科技 (热榜第72名) 阅读36.5万
+     特斯拉FSD 14.3.3放宽驾驶员监控机制 (汽车榜第24名) 阅读80.2万
+     属于苹果的黄金时代正在远去吗 (热榜第79名) 阅读41.0万
+     AI工业机器人是不是在收智商税 (科技榜第32名) 阅读3.8万
+     AI时代人文学科会被取代吗 (科技榜第33名) 阅读2.9万
+     广东茂名荔枝收获 采摘机器人上岗 (热榜第88名) 阅读36.7万
+  ★ 新增 媒体评宇树科技遭遇恶意诉讼 (热榜第99名) 阅读1.5万
+     如何看待“算力期货” (热榜第102名) 阅读1.4万
+  ★ 新增 美团副总裁谈无人机业务 (热榜第105名) 阅读2.1万
+
+★ 发现 2 个新话题，触发 /write-all...
+  → 触发写作：媒体评宇树科技遭遇恶意诉讼
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：美团副总裁谈无人机业务
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-21.md
