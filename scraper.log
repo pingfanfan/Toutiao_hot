@@ -17593,3 +17593,93 @@ playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
 Call log:
   - navigating to "https://mp.toutiao.com/profile_v4/activity/hot-selection", waiting until "networkidle"
 
+[main cd43d69] 抓取 2026-05-21 18:00 | 100条 | 相关16条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 184 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   efa28c9..cd43d69  HEAD -> main
+[2026-05-21 18:00:01.331779] 开始抓取...
+✓ 共 100 条，科技/AI/教育相关 16 条
+  ★ 新增 小米发布首款耳夹式耳机 (科技榜第3名) 阅读20.9万
+     投了长鑫科技 合肥赚了一个合肥 (财经榜第17名) 阅读114.2万
+  ★ 新增 小米YU7新增标准版上市 (汽车榜第4名) 阅读29.9万
+  ★ 新增 三星化解“AI红利”罢工危机 (财经榜第18名) 阅读12.0万
+  ★ 新增 教育部拟同意设置34所本科高校 (教育榜第11名) 阅读6.9万
+  ★ 新增 俄中部炼油厂遭无人机袭击被迫停产 (国际榜第29名) 阅读1.6万
+  ★ 新增 俄高等经济大学校长谈“俄中教育年” (国际榜第36名) 阅读5.6万
+  ★ 新增 乌无人机袭击俄本土为何北约深受其害 (军事榜第10名) 阅读61.6万
+  ★ 新增 AI工业机器人是不是在收智商税 (科技榜第21名) 阅读2.5万
+  ★ 新增 特斯拉FSD 14.3.3放宽驾驶员监控机制 (汽车榜第17名) 阅读73.1万
+  ★ 新增 外资抢筹中国硬科技 (热榜第58名) 阅读32.0万
+  ★ 新增 AI时代人文学科会被取代吗 (科技榜第24名) 阅读1.8万
+  ★ 新增 如何看待“算力期货” (热榜第77名) 阅读9,742
+  ★ 新增 中国为何坚持大力发展新能源车 (汽车榜第24名) 阅读21.8万
+  ★ 新增 广东茂名荔枝收获 采摘机器人上岗 (热榜第83名) 阅读32.1万
+  ★ 新增 属于苹果的黄金时代正在远去吗 (热榜第84名) 阅读36.8万
+
+★ 发现 15 个新话题，触发 /write-all...
+  → 触发写作：小米发布首款耳夹式耳机
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小米YU7新增标准版上市
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：三星化解“AI红利”罢工危机
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：教育部拟同意设置34所本科高校
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：俄中部炼油厂遭无人机袭击被迫停产
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：俄高等经济大学校长谈“俄中教育年”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：乌无人机袭击俄本土为何北约深受其害
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI工业机器人是不是在收智商税
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：特斯拉FSD 14.3.3放宽驾驶员监控机制
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：外资抢筹中国硬科技
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI时代人文学科会被取代吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：如何看待“算力期货”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国为何坚持大力发展新能源车
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：广东茂名荔枝收获 采摘机器人上岗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：属于苹果的黄金时代正在远去吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-21.md
+[2026-05-21 20:00:00.944350] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 262, in main
+    page.goto(URL, wait_until="networkidle", timeout=30000)
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 9054, in goto
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://mp.toutiao.com/profile_v4/activity/hot-selection", waiting until "networkidle"
+
