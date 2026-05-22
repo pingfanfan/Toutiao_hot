@@ -17897,3 +17897,46 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-22.md
+[main bd6a5c7] 抓取 2026-05-22 10:00 | 30条 | 相关9条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 96 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   e2b6845..bd6a5c7  HEAD -> main
+[2026-05-22 10:00:00.832066] 开始抓取...
+✓ 共 30 条，科技/AI/教育相关 9 条
+     投了长鑫科技 合肥赚了一个合肥 (热榜第4名) 阅读319.3万
+     长鑫科技业绩狂飙冲刺IPO (财经榜第11名) 阅读21.1万
+  ★ 新增 俄称卢甘斯克一学校遭乌无人机袭击 (国际榜第19名) 阅读2.1万
+  ★ 新增 茅台涨价苹果华为降价释放什么信号 (财经榜第13名) 阅读3.2万
+  ★ 新增 乌高层住宅惊现未爆无人机 (国际榜第20名) 阅读4.2万
+  ★ 新增 野村：AI正在重塑整个半导体产业链 (科技榜第6名) 阅读5,083
+  ★ 新增 院士：AI已成为最重要的科技公共产品 (科技榜第7名) 阅读1.2万
+  ★ 新增 天才少年崔添翼加盟DeepSeek (科技榜第10名) 阅读1.3万
+     AI东风能送长鑫上万亿市值吗 (科技榜第12名) 阅读55.0万
+
+★ 发现 6 个新话题，触发 /write-all...
+  → 触发写作：俄称卢甘斯克一学校遭乌无人机袭击
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：茅台涨价苹果华为降价释放什么信号
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：乌高层住宅惊现未爆无人机
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：野村：AI正在重塑整个半导体产业链
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：院士：AI已成为最重要的科技公共产品
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：天才少年崔添翼加盟DeepSeek
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-22.md
