@@ -17940,3 +17940,39 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-22.md
+[main 7f8c144] 抓取 2026-05-22 12:00 | 30条 | 相关8条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 96 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   bd6a5c7..7f8c144  HEAD -> main
+[2026-05-22 12:00:01.403873] 开始抓取...
+✓ 共 30 条，科技/AI/教育相关 8 条
+     投了长鑫科技 合肥赚了一个合肥 (热榜第4名) 阅读356.6万
+     茅台涨价苹果华为降价释放什么信号 (财经榜第11名) 阅读9.9万
+  ★ 新增 专家：央国企能通过AI+实现新发展 (科技榜第5名) 阅读1.1万
+     长鑫科技业绩狂飙冲刺IPO (财经榜第17名) 阅读43.7万
+     野村：AI正在重塑整个半导体产业链 (科技榜第8名) 阅读4.8万
+  ★ 新增 爆红的长鑫科技是如何炼成的 (财经榜第20名) 阅读51.3万
+  ★ 新增 文博会上的AI广货 (科技榜第14名) 阅读1.4万
+     俄称卢甘斯克一学校遭乌无人机袭击 (国际榜第27名) 阅读6.7万
+
+★ 发现 3 个新话题，触发 /write-all...
+  → 触发写作：专家：央国企能通过AI+实现新发展
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：爆红的长鑫科技是如何炼成的
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：文博会上的AI广货
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-22.md
