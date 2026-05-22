@@ -17792,3 +17792,43 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-22.md
+[main f826ce6] 抓取 2026-05-22 04:00 | 50条 | 相关8条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 100 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   3cbc5e9..f826ce6  HEAD -> main
+[2026-05-22 04:00:01.111733] 开始抓取...
+✓ 共 50 条，科技/AI/教育相关 8 条
+     投了长鑫科技 合肥赚了一个合肥 (财经榜第38名) 阅读213.5万
+  ★ 新增 AI东风能送长鑫上万亿市值吗 (科技榜第3名) 阅读1.5万
+     小米发布首款耳夹式耳机 (科技榜第12名) 阅读47.1万
+     孙正义600亿美元押注OpenAI (财经榜第36名) 阅读1.7万
+  ★ 新增 小米YU7新增标准版上市 (汽车榜第21名) 阅读96.6万
+  ★ 新增 三星化解“AI红利”罢工危机 (热榜第46名) 阅读59.2万
+  ★ 新增 教育部拟同意设置34所本科高校 (教育榜第23名) 阅读27.0万
+  ★ 新增 乌无人机袭击俄本土为何北约深受其害 (军事榜第17名) 阅读110.7万
+
+★ 发现 5 个新话题，触发 /write-all...
+  → 触发写作：AI东风能送长鑫上万亿市值吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小米YU7新增标准版上市
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：三星化解“AI红利”罢工危机
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：教育部拟同意设置34所本科高校
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：乌无人机袭击俄本土为何北约深受其害
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-22.md
