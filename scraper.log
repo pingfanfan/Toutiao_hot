@@ -18753,3 +18753,106 @@ To github.com:pingfanfan/Toutiao_hot.git
   （无新增相关话题）
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-24.md
+[main 92d1aea] 抓取 2026-05-24 14:00 | 40条 | 相关1条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 80 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   f32c96a..92d1aea  HEAD -> main
+[2026-05-24 14:00:01.324829] 开始抓取...
+✓ 共 40 条，科技/AI/教育相关 1 条
+     俄边境州无人机爆炸致1平民死亡 (军事榜第7名) 阅读251.7万
+  （无新增相关话题）
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-24.md
+[2026-05-24 16:00:00.797804] 开始抓取...
+✓ 共 194 条，科技/AI/教育相关 28 条
+  ★ 新增 女子吃烧烤偶遇十几年没见的大学同学 (热榜第1名) 阅读22.9万
+  ★ 新增 我国航天员的三种类别各自有什么特点 (科技榜第5名) 阅读21.4万
+  ★ 新增 星舰V3火箭有多强 (科技榜第9名) 阅读1.1万
+  ★ 新增 美日联合演练攻击型无人机 (军事榜第9名) 阅读3,029
+  ★ 新增 马斯克为何执着于把火箭和AI绑定 (科技榜第21名) 阅读116.7万
+     俄边境州无人机爆炸致1平民死亡 (军事榜第10名) 阅读487.9万
+  ★ 新增 算力网上的长三角 (科技榜第24名) 阅读2,181
+  ★ 新增 美媒对比亚历山大和布伦森季后赛数据 (热榜第89名) 阅读186.4万
+  ★ 新增 重载无人机四机联吊助力抗洪救灾 (科技榜第29名) 阅读5,262
+  ★ 新增 小米大家电站上被告席 (财经榜第50名) 阅读5,603
+  ★ 新增 你有AI依赖吗 (科技榜第30名) 阅读1,954
+  ★ 新增 本轮AI行情与科网泡沫有何不同 (热榜第109名) 阅读1,222
+  ★ 新增 一季度AI领域融资超1100亿 (科技榜第31名) 阅读4.1万
+  ★ 新增 小米YU7 GT前后包围变化是否影响续航 (汽车榜第23名) 阅读6.8万
+  ★ 新增 新能源车迭代速度过快造成“多输” (汽车榜第25名) 阅读571
+  ★ 新增 洪水退去武警战士为学校清理淤泥 (热榜第144名) 阅读2.5万
+  ★ 新增 莲花味精为何会错失芯片赛道 (热榜第154名) 阅读1.2万
+  ★ 新增 医院出售患者数据 隐私是否会被泄露 (健康榜第44名) 阅读1.5万
+  ★ 新增 京产机器人去深圳“出差”了 (热榜第160名) 阅读348
+  ★ 新增 我国将适时发布大湾区整体外贸数据 (热榜第165名) 阅读81
+  ★ 新增 交警机器人守护儿童上下学安全 (热榜第170名) 阅读910
+  ★ 新增 毕业生写长信与四年前的自己对话 (热榜第181名) 阅读0
+  ★ 新增 北斗卫星护航200只海龟放归大海 (热榜第183名) 阅读22
+  ★ 新增 两妈带三娃爬山迷路 消防无人机搜救 (热榜第186名) 阅读17
+  ★ 新增 空降兵缘何酷爱107毫米火箭炮 (军事榜第38名) 阅读6,080
+  ★ 新增 印度一学生遭十余只流浪狗围堵袭击 (热榜第190名) 阅读2,768
+  ★ 新增 乌巨兽无人机能改写俄乌战争结局吗 (军事榜第12名) 阅读956.4万
+  ★ 新增 乌巨兽无人机能改写俄乌战争结局吗 (军事榜第12名) 阅读956.3万
+
+★ 发现 27 个新话题，触发 /write-all...
+  → 触发写作：女子吃烧烤偶遇十几年没见的大学同学
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：我国航天员的三种类别各自有什么特点
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：星舰V3火箭有多强
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：美日联合演练攻击型无人机
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：马斯克为何执着于把火箭和AI绑定
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：算力网上的长三角
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：美媒对比亚历山大和布伦森季后赛数据
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：重载无人机四机联吊助力抗洪救灾
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小米大家电站上被告席
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：你有AI依赖吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：本轮AI行情与科网泡沫有何不同
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：一季度AI领域融资超1100亿
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小米YU7 GT前后包围变化是否影响续航
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：新能源车迭代速度过快造成“多输”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：洪水退去武警战士为学校清理淤泥
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：莲花味精为何会错失芯片赛道
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：医院出售患者数据 隐私是否会被泄露
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：京产机器人去深圳“出差”了
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：我国将适时发布大湾区整体外贸数据
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：交警机器人守护儿童上下学安全
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：毕业生写长信与四年前的自己对话
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：北斗卫星护航200只海龟放归大海
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：两妈带三娃爬山迷路 消防无人机搜救
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：空降兵缘何酷爱107毫米火箭炮
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：印度一学生遭十余只流浪狗围堵袭击
