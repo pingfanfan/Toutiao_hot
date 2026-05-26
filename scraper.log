@@ -19375,3 +19375,35 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-25.md
+[main f3e6153] 抓取 2026-05-26 00:00 | 50条 | 相关7条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 104 insertions(+), 1 deletion(-)
+ create mode 100644 data/2026-05-26.md
+To github.com:pingfanfan/Toutiao_hot.git
+   218297d..f3e6153  HEAD -> main
+[2026-05-26 00:00:00.567295] 开始抓取...
+✓ 共 50 条，科技/AI/教育相关 7 条
+     宇树科技IPO上会时间定了 (财经榜第10名) 阅读72.9万
+     商家称“豹纹香蕉”是AI生成的 (热榜第31名) 阅读5.4万
+     恒生科技指数将纳入MiniMax是接盘吗 (热榜第33名) 阅读5.7万
+  ★ 新增 AI“炼化同事”为何一石激起千层浪 (科技榜第42名) 阅读1.8万
+     外国留学生在义乌开6家店 (热榜第44名) 阅读15.2万
+     媒体人谈农村养老和教育等问题 (热榜第45名) 阅读27.5万
+     战火未熄 伊朗学生被迫长期上网课 (热榜第46名) 阅读9.3万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：AI“炼化同事”为何一石激起千层浪
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-26.md
