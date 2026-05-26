@@ -19693,3 +19693,50 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-26.md
+[main d308f6f] 抓取 2026-05-26 20:00 | 79条 | 相关11条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 139 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   60bf7d1..d308f6f  HEAD -> main
+[2026-05-26 20:00:01.242498] 开始抓取...
+✓ 共 79 条，科技/AI/教育相关 11 条
+     芯片大佬朱一明11天套现超21亿 (财经榜第2名) 阅读5.7万
+     张雪机车5冠背后的中国黑科技 (汽车榜第1名) 阅读132.2万
+     美股三大科技巨头为何着急融资 (财经榜第28名) 阅读9.9万
+     新能源车12年“胖”了近400公斤 (汽车榜第6名) 阅读8.8万
+  ★ 新增 武警官兵清淤后在学校黑板留暖心寄语 (军事榜第30名) 阅读48.1万
+  ★ 新增 博主：地产巨头集体错过AI时代 (热榜第35名) 阅读56.3万
+  ★ 新增 一张账单揭开AI芯片涨价潮真相 (科技榜第30名) 阅读61.5万
+  ★ 新增 宇树科技IPO倒计时 (热榜第42名) 阅读104.5万
+  ★ 新增 AI繁荣的隐秘真相 (热榜第60名) 阅读26.0万
+  ★ 新增 国产AI自己造了AI (热榜第74名) 阅读2.3万
+  ★ 新增 华映科技的“止血”与“输血”困局 (热榜第79名) 阅读6.3万
+
+★ 发现 7 个新话题，触发 /write-all...
+  → 触发写作：武警官兵清淤后在学校黑板留暖心寄语
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：博主：地产巨头集体错过AI时代
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：一张账单揭开AI芯片涨价潮真相
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：宇树科技IPO倒计时
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI繁荣的隐秘真相
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：国产AI自己造了AI
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：华映科技的“止血”与“输血”困局
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-26.md
