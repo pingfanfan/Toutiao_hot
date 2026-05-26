@@ -19407,3 +19407,38 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-26.md
+[main 8d5f2a2] 抓取 2026-05-26 02:00 | 20条 | 相关5条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 72 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   f3e6153..8d5f2a2  HEAD -> main
+[2026-05-26 02:00:00.910072] 开始抓取...
+✓ 共 20 条，科技/AI/教育相关 5 条
+  ★ 新增 航天员将开展1年期在轨驻留试验背后 (科技榜第2名) 阅读7.7万
+  ★ 新增 宇树科技IPO倒计时 (财经榜第2名) 阅读5.0万
+  ★ 新增 AI繁荣的隐秘真相 (科技榜第11名) 阅读1.6万
+     宇树科技IPO上会时间定了 (财经榜第42名) 阅读91.2万
+  ★ 新增 华映科技的“止血”与“输血”困局 (热榜第19名) 阅读598
+
+★ 发现 4 个新话题，触发 /write-all...
+  → 触发写作：航天员将开展1年期在轨驻留试验背后
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：宇树科技IPO倒计时
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI繁荣的隐秘真相
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：华映科技的“止血”与“输血”困局
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-26.md
