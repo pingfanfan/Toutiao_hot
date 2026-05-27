@@ -19979,3 +19979,57 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-27.md
+[main 675e93f] 抓取 2026-05-27 12:00 | 80条 | 相关14条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 142 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   7f8a3b4..675e93f  HEAD -> main
+[2026-05-27 12:00:00.523342] 开始抓取...
+✓ 共 80 条，科技/AI/教育相关 14 条
+     华为抛出“韬定律”意味着什么 (科技榜第3名) 阅读28.3万
+     暴雨后家中被淹男子淡定躺沙发玩手机 (热榜第11名) 阅读46.6万
+  ★ 新增 外交部回应天宫迎来首位香港航天员 (科技榜第6名) 阅读4.3万
+  ★ 新增 肄业博士掀学术界打假风暴 (科技榜第8名) 阅读2.4万
+     科技股终于涨累了吗 (财经榜第21名) 阅读102.0万
+     阵风被土耳其无人机击落是真的吗 (军事榜第13名) 阅读14.9万
+  ★ 新增 小米财报分析：利润率守住底线 (财经榜第27名) 阅读28.8万
+  ★ 新增 晶方科技换手率24.36% (财经榜第30名) 阅读6,917
+  ★ 新增 美国“死神”无人机为何频频被击落 (军事榜第16名) 阅读4.7万
+     小米季报藏着哪些信号 (财经榜第31名) 阅读28.7万
+  ★ 新增 小伙英国硕士毕业后在英卖胡辣汤 (热榜第53名) 阅读43.7万
+  ★ 新增 海力士拒绝科技巨头数十万亿韩元投资 (财经榜第47名) 阅读31.8万
+  ★ 新增 “两长”IPO背后：科技投行3种能力 (财经榜第50名) 阅读69.0万
+  ★ 新增 AI的狂热还能走多远 (热榜第70名) 阅读2,156
+
+★ 发现 9 个新话题，触发 /write-all...
+  → 触发写作：外交部回应天宫迎来首位香港航天员
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：肄业博士掀学术界打假风暴
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小米财报分析：利润率守住底线
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：晶方科技换手率24.36%
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：美国“死神”无人机为何频频被击落
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小伙英国硕士毕业后在英卖胡辣汤
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：海力士拒绝科技巨头数十万亿韩元投资
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：“两长”IPO背后：科技投行3种能力
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI的狂热还能走多远
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-27.md
