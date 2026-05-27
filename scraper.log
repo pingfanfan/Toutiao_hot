@@ -20063,3 +20063,58 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-27.md
+[main d0a0e87] 抓取 2026-05-27 16:00 | 50条 | 相关5条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 100 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   f0791ec..d0a0e87  HEAD -> main
+[2026-05-27 16:00:01.109230] 开始抓取...
+✓ 共 50 条，科技/AI/教育相关 5 条
+     科技股大幅回调 大消费异动拉升 (财经榜第11名) 阅读42.8万
+  ★ 新增 业内：科技股交易过度拥挤 (财经榜第14名) 阅读39.8万
+  ★ 新增 小米一季度财报能看出什么 (财经榜第16名) 阅读12.0万
+  ★ 新增 两位工程师创业干出200亿半导体龙头 (财经榜第42名) 阅读4.5万
+     肄业博士掀学术界打假风暴 (科技榜第8名) 阅读42.9万
+
+★ 发现 3 个新话题，触发 /write-all...
+  → 触发写作：业内：科技股交易过度拥挤
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小米一季度财报能看出什么
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：两位工程师创业干出200亿半导体龙头
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-27.md
+[2026-05-27 18:00:00.814363] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 262, in main
+    page.goto(URL, wait_until="networkidle", timeout=30000)
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 9054, in goto
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://mp.toutiao.com/profile_v4/activity/hot-selection", waiting until "networkidle"
+
