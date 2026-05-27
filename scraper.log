@@ -19850,3 +19850,33 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-27.md
+[main 90ba6be] 抓取 2026-05-27 04:00 | 20条 | 相关4条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 84 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   370d3c2..90ba6be  HEAD -> main
+[2026-05-27 04:00:00.628185] 开始抓取...
+✓ 共 20 条，科技/AI/教育相关 4 条
+  ★ 新增 AI竞赛进入重资产时代 (财经榜第14名) 阅读5,806
+     富士奇美拉研究所发布芯片市场预测 (科技榜第9名) 阅读6.8万
+  ★ 新增 “两长”IPO背后：科技投行3种能力 (财经榜第19名) 阅读1.1万
+     神舟二十一号航天员创造了哪些成就 (科技榜第10名) 阅读7.7万
+
+★ 发现 2 个新话题，触发 /write-all...
+  → 触发写作：AI竞赛进入重资产时代
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：“两长”IPO背后：科技投行3种能力
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-27.md
