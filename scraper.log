@@ -20271,3 +20271,66 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-28.md
+[main ffea944] 抓取 2026-05-28 02:00 | 150条 | 相关23条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 268 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   88b727f..ffea944  HEAD -> main
+[2026-05-28 02:00:01.204612] 开始抓取...
+✓ 共 150 条，科技/AI/教育相关 23 条
+  ★ 新增 AI会颠覆就业市场吗 (科技榜第7名) 阅读9,907
+  ★ 新增 国产大模型为何敢最高降价99% (科技榜第8名) 阅读8,583
+  ★ 新增 小米季报背后：手机承压汽车上桌 (财经榜第30名) 阅读1,636
+     暴雨后家中被淹男子淡定躺沙发玩手机 (热榜第33名) 阅读134.4万
+     小米一季度财报能看出什么 (热榜第37名) 阅读64.9万
+     肄业博士掀学术界打假风暴 (科技榜第19名) 阅读145.0万
+     消费基金重仓科技是合规还是越界 (热榜第48名) 阅读11.4万
+     两位工程师创业干出200亿半导体龙头 (热榜第64名) 阅读18.6万
+     物理AI有哪些新进展 (科技榜第28名) 阅读14.3万
+     “两长”IPO背后：科技投行3种能力 (热榜第71名) 阅读285.4万
+     外交部回应天宫迎来首位香港航天员 (科技榜第37名) 阅读53.5万
+  ★ 新增 骗补中介盯上刚毕业的大学生 (热榜第88名) 阅读296
+     美国“死神”无人机为何频频被击落 (军事榜第32名) 阅读33.7万
+     海力士拒绝科技巨头数十万亿韩元投资 (热榜第101名) 阅读96.6万
+     阵风被土耳其无人机击落是真的吗 (军事榜第40名) 阅读50.2万
+  ★ 新增 AI竞赛进入重资产时代 (热榜第117名) 阅读10.5万
+     小米财报分析：利润率守住底线 (热榜第119名) 阅读104.7万
+     小米陷入专利战泥潭 (热榜第123名) 阅读9.3万
+     小米季报藏着哪些信号 (热榜第124名) 阅读112.1万
+  ★ 新增 Q1快手AI漫剧营销消耗同比增超100倍 (热榜第129名) 阅读171
+  ★ 新增 凭中高考准考证免费玩的河南景区名单 (文旅榜第42名) 阅读109
+  ★ 新增 骗补中介盯上刚毕业的大学生 (热榜第140名) 阅读296
+  ★ 新增 山东脑机接口技术让国际友人赞不绝口 (热榜第143名) 阅读3
+
+★ 发现 9 个新话题，触发 /write-all...
+  → 触发写作：AI会颠覆就业市场吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：国产大模型为何敢最高降价99%
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：小米季报背后：手机承压汽车上桌
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：骗补中介盯上刚毕业的大学生
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI竞赛进入重资产时代
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：Q1快手AI漫剧营销消耗同比增超100倍
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：凭中高考准考证免费玩的河南景区名单
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：骗补中介盯上刚毕业的大学生
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：山东脑机接口技术让国际友人赞不绝口
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-28.md
