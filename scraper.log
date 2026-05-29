@@ -20863,3 +20863,41 @@ To github.com:pingfanfan/Toutiao_hot.git
   （无新增相关话题）
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-29.md
+[main a2cfaab] 抓取 2026-05-29 16:00 | 80条 | 相关6条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 124 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   d13ee39..a2cfaab  HEAD -> main
+[2026-05-29 16:00:01.035086] 开始抓取...
+✓ 共 80 条，科技/AI/教育相关 6 条
+  ★ 新增 航天员返航时为何要穿航天服 (科技榜第1名) 阅读285.8万
+  ★ 新增 美国1天公布3个重要数据会造成何影响 (财经榜第16名) 阅读5.0万
+     俄乌无人机博弈格局将如何演变 (军事榜第20名) 阅读109.7万
+  ★ 新增 蓝色起源“新格伦”火箭发生爆炸 (科技榜第35名) 阅读335.6万
+  ★ 新增 全球每10台人形机器人9台出自中国 (科技榜第44名) 阅读58.6万
+  ★ 新增 生益科技市值冲破3400亿 (热榜第76名) 阅读844
+
+★ 发现 5 个新话题，触发 /write-all...
+  → 触发写作：航天员返航时为何要穿航天服
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：美国1天公布3个重要数据会造成何影响
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：蓝色起源“新格伦”火箭发生爆炸
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：全球每10台人形机器人9台出自中国
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：生益科技市值冲破3400亿
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-29.md
