@@ -20937,3 +20937,26 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-29.md
+[main f7400a0] 抓取 2026-05-29 20:00 | 30条 | 相关2条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 83 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   48f8e9e..f7400a0  HEAD -> main
+[2026-05-29 20:00:00.464847] 开始抓取...
+✓ 共 30 条，科技/AI/教育相关 2 条
+     美国1天公布3个重要数据会造成何影响 (财经榜第12名) 阅读12.9万
+     生益科技市值冲破3400亿 (财经榜第13名) 阅读1.1万
+  （无新增相关话题）
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-29.md
