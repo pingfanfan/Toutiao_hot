@@ -20684,3 +20684,55 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-29.md
+[main 23d26e7] 抓取 2026-05-29 04:00 | 90条 | 相关10条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 144 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   344f8ba..23d26e7  HEAD -> main
+[2026-05-29 04:00:01.028625] 开始抓取...
+✓ 共 90 条，科技/AI/教育相关 10 条
+  ★ 新增 中国商业航天凭啥值钱 (科技榜第5名) 阅读1.1万
+  ★ 新增 蓝色起源“新格伦”火箭发生爆炸 (科技榜第2名) 阅读8.9万
+  ★ 新增 揭秘军事智能“黑科技”机器獒 (军事榜第5名) 阅读1.0万
+  ★ 新增 全球每10台人形机器人9台出自中国 (科技榜第18名) 阅读1.6万
+  ★ 新增 外资机器人产品原有优势持续松动 (科技榜第26名) 阅读1,557
+  ★ 新增 新能源车该交养路费了吗 (汽车榜第17名) 阅读494
+  ★ 新增 何小鹏谈人形机器人进展 (汽车榜第20名) 阅读339
+  ★ 新增 美国一特斯拉辅助驾驶模式下出事故 (汽车榜第23名) 阅读329
+  ★ 新增 长电科技离真正重估还差什么 (热榜第86名) 阅读316
+  ★ 新增 环卫工翻垃圾桶帮学生寻回万元牙套 (热榜第90名) 阅读34.6万
+
+★ 发现 10 个新话题，触发 /write-all...
+  → 触发写作：中国商业航天凭啥值钱
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：蓝色起源“新格伦”火箭发生爆炸
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：揭秘军事智能“黑科技”机器獒
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：全球每10台人形机器人9台出自中国
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：外资机器人产品原有优势持续松动
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：新能源车该交养路费了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：何小鹏谈人形机器人进展
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：美国一特斯拉辅助驾驶模式下出事故
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：长电科技离真正重估还差什么
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：环卫工翻垃圾桶帮学生寻回万元牙套
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-29.md
