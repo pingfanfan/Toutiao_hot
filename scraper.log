@@ -21350,3 +21350,33 @@ Call log:
   - retrying click action
     - waiting for element to be visible, enabled and stable
 
+[main d395a28] 抓取 2026-05-30 22:00 | 40条 | 相关6条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 162 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   369eba7..d395a28  HEAD -> main
+[2026-05-30 22:00:00.834771] 开始抓取...
+✓ 共 40 条，科技/AI/教育相关 6 条
+     普京：已将无人机残骸交美国鉴定 (国际榜第3名) 阅读201.1万
+     10名中国车主诉特斯拉FSD欺诈索395万 (热榜第4名) 阅读43.3万
+     科技股突然杀跌意味着什么 (财经榜第4名) 阅读21.0万
+     A股科技行情结束了吗 (财经榜第18名) 阅读188.3万
+  ★ 新增 航天员回地球后最想洗头 (军事榜第14名) 阅读1,270.0万
+     美国人形机器人被曝已投入俄乌战场 (军事榜第18名) 阅读6.6万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：航天员回地球后最想洗头
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-30.md
