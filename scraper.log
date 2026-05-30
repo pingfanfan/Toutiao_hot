@@ -21082,3 +21082,35 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-30.md
+[main 715f70c] 抓取 2026-05-30 04:00 | 60条 | 相关8条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 153 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   f6e4850..715f70c  HEAD -> main
+[2026-05-30 04:00:01.262721] 开始抓取...
+✓ 共 60 条，科技/AI/教育相关 8 条
+     航天员回地球后最想洗头 (军事榜第1名) 阅读282.6万
+  ★ 新增 10名中国车主诉特斯拉FSD欺诈索395万 (财经榜第8名) 阅读2.0万
+     一架美军MQ-9无人机在也门坠毁 (军事榜第6名) 阅读5.7万
+     媒体评贵州大学一岗位要看配偶论文数 (教育榜第1名) 阅读3.3万
+     美国1天公布3个重要数据会造成何影响 (热榜第31名) 阅读42.0万
+     小米三年来收入首次出现下滑 (热榜第46名) 阅读13.6万
+     科技基金业绩极致分化 (热榜第52名) 阅读13.3万
+     航天员返航时为何要穿航天服 (科技榜第40名) 阅读1,966.5万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：10名中国车主诉特斯拉FSD欺诈索395万
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-30.md
