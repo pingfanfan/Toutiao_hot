@@ -21380,3 +21380,98 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-05-30.md
+[main 8c02df2] 抓取 2026-05-31 00:00 | 166条 | 相关28条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 240 insertions(+), 1 deletion(-)
+ create mode 100644 data/2026-05-31.md
+To github.com:pingfanfan/Toutiao_hot.git
+   d395a28..8c02df2  HEAD -> main
+[2026-05-31 00:00:01.165871] 开始抓取...
+✓ 共 166 条，科技/AI/教育相关 28 条
+     普京：已将无人机残骸交美国鉴定 (国际榜第3名) 阅读240.1万
+     10名中国车主诉特斯拉FSD欺诈索395万 (热榜第7名) 阅读48.9万
+  ★ 新增 北京全力建设人工智能第一城 (科技榜第3名) 阅读4.0万
+     美国人形机器人被曝已投入俄乌战场 (军事榜第12名) 阅读11.6万
+     A股科技行情结束了吗 (财经榜第20名) 阅读217.8万
+     航天员回地球后最想洗头 (军事榜第15名) 阅读1,299.4万
+     航天员回地球后最想洗头 (军事榜第15名) 阅读1,299.6万
+  ★ 新增 三花智控高管“为孩子教育”减持套现 (财经榜第35名) 阅读29.1万
+  ★ 新增 中美AI竞赛开辟新战场 (科技榜第14名) 阅读23.3万
+  ★ 新增 三个关于中国航天的最新细节 (科技榜第15名) 阅读122.7万
+  ★ 新增 媒体评贵州大学一岗位要看配偶论文数 (教育榜第28名) 阅读25.6万
+  ★ 新增 一架美军MQ-9无人机在也门坠毁 (军事榜第33名) 阅读127.4万
+  ★ 新增 博主：普通人在为AI军备付学费 (科技榜第21名) 阅读2.2万
+  ★ 新增 学校空调一开就跳闸 校方紧急整改 (教育榜第36名) 阅读17.3万
+  ★ 新增 AI供应链的权力结构正在重组 (科技榜第36名) 阅读17.9万
+  ★ 新增 英伟达高管谈人形机器人“风口” (科技榜第37名) 阅读15.2万
+  ★ 新增 3万Star项目让AI编程有全局视野 (科技榜第49名) 阅读3.7万
+  ★ 新增 AI和空调开始抢电了吗 (热榜第89名) 阅读11.2万
+  ★ 新增 华尔街对特斯拉估值分歧依旧 (热榜第91名) 阅读43.7万
+  ★ 新增 美太空军斥巨资打造卫星通信网 (军事榜第43名) 阅读4.5万
+  ★ 新增 博主：降AI率产业链已成形 (热榜第124名) 阅读3.2万
+  ★ 新增 男子称母亲接受AI线上诊疗病情恶化 (健康榜第48名) 阅读4.4万
+  ★ 新增 韩国半导体检测设备业面临零部件紧张 (热榜第135名) 阅读3.9万
+  ★ 新增 护士离世后捐献遗体当大体老师 (热榜第144名) 阅读2.4万
+  ★ 新增 GitHub项目教你白嫖大模型Token (热榜第146名) 阅读3,223
+  ★ 新增 江苏高校摸排出受灾学生224人 (热榜第149名) 阅读726
+  ★ 新增 高考志愿填报你有哪些技巧 (教育榜第39名) 阅读20.4万
+  ★ 新增 多家AI平台涉考功能“限时上锁” (热榜第164名) 阅读3,769
+
+★ 发现 22 个新话题，触发 /write-all...
+  → 触发写作：北京全力建设人工智能第一城
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：三花智控高管“为孩子教育”减持套现
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中美AI竞赛开辟新战场
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：三个关于中国航天的最新细节
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：媒体评贵州大学一岗位要看配偶论文数
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：一架美军MQ-9无人机在也门坠毁
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：博主：普通人在为AI军备付学费
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：学校空调一开就跳闸 校方紧急整改
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI供应链的权力结构正在重组
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：英伟达高管谈人形机器人“风口”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：3万Star项目让AI编程有全局视野
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI和空调开始抢电了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：华尔街对特斯拉估值分歧依旧
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：美太空军斥巨资打造卫星通信网
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：博主：降AI率产业链已成形
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：男子称母亲接受AI线上诊疗病情恶化
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：韩国半导体检测设备业面临零部件紧张
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：护士离世后捐献遗体当大体老师
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：GitHub项目教你白嫖大模型Token
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：江苏高校摸排出受灾学生224人
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：高考志愿填报你有哪些技巧
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：多家AI平台涉考功能“限时上锁”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-05-31.md
