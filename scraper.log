@@ -22205,3 +22205,72 @@ Call log:
   - retrying click action
     - waiting for element to be visible, enabled and stable
 
+[main 7d77059] 抓取 2026-06-01 20:00 | 50条 | 相关11条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 139 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   f33b6d2..7d77059  HEAD -> main
+[2026-06-01 20:00:00.872522] 开始抓取...
+✓ 共 50 条，科技/AI/教育相关 11 条
+     半导体板块调整 大基金累计减持210亿 (财经榜第10名) 阅读38.6万
+     英伟达凭什么重新定制下一代AI PC (科技榜第7名) 阅读60.2万
+     机器人先挣钱还是先追求AGI (科技榜第19名) 阅读52.6万
+  ★ 新增 机器人会成为半导体下一个超级终端吗 (科技榜第22名) 阅读303.0万
+     乌推无人机军功积分换装备引争议 (军事榜第10名) 阅读22.8万
+  ★ 新增 科技基金“同名不同命” (热榜第23名) 阅读11.2万
+  ★ 新增 长鑫IPO将至 A股科技牛能走多远 (热榜第26名) 阅读2.7万
+  ★ 新增 长征十二号乙运载火箭首飞成功 (科技榜第23名) 阅读34.7万
+     美国大厂开始算AI的账了 (科技榜第26名) 阅读10.1万
+  ★ 新增 印度航空发动机技术水平如何 (军事榜第24名) 阅读50.3万
+  ★ 新增 OpenAI正式成立机器人团队 (科技榜第46名) 阅读34.6万
+
+★ 发现 6 个新话题，触发 /write-all...
+  → 触发写作：机器人会成为半导体下一个超级终端吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：科技基金“同名不同命”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：长鑫IPO将至 A股科技牛能走多远
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：长征十二号乙运载火箭首飞成功
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：印度航空发动机技术水平如何
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：OpenAI正式成立机器人团队
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-06-01.md
+[2026-06-01 22:00:00.983122] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 51, in scrape_items
+    page.wait_for_selector("a[href*='toutiao.com/trending/']", timeout=15000)
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 8217, in wait_for_selector
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("a[href*='toutiao.com/trending/']") to be visible
+
