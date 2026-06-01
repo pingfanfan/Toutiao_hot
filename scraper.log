@@ -22093,3 +22093,52 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-06-01.md
+[main 1072d9c] 抓取 2026-06-01 14:00 | 119条 | 相关15条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 191 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   bda5e88..1072d9c  HEAD -> main
+[2026-06-01 14:00:00.641757] 开始抓取...
+✓ 共 119 条，科技/AI/教育相关 15 条
+     机器人会成为半导体下一个超级终端吗 (科技榜第16名) 阅读143.9万
+     长征十二号乙运载火箭首飞成功 (科技榜第9名) 阅读12.5万
+  ★ 新增 机器人先挣钱还是先追求AGI (科技榜第22名) 阅读7,400
+  ★ 新增 OpenAI正式成立机器人团队 (科技榜第26名) 阅读6.7万
+     印度航空发动机技术水平如何 (军事榜第14名) 阅读31.9万
+     小米汽车5月交付量再超3万台 (汽车榜第32名) 阅读92.8万
+  ★ 新增 乌推无人机军功积分换装备引争议 (军事榜第23名) 阅读682
+     传统PC厂商吃上AI红利 (热榜第73名) 阅读15.8万
+     媒体：争夺人形机器人标准话语权 (热榜第82名) 阅读6.3万
+     欧盟“技术主权”计划背后的三重焦虑 (热榜第83名) 阅读3.4万
+     湖南对新任防汛负责人进行培训 (热榜第89名) 阅读23.2万
+     小米17T/Pro手机国行定档6月8日 (热榜第98名) 阅读20.7万
+  ★ 新增 科技基金“同名不同命” (热榜第110名) 阅读59
+  ★ 新增 白宫经济主任呼吁理性看待经济数据 (热榜第114名) 阅读7,035
+  ★ 新增 美国把机器人放进俄乌战场有何意图 (军事榜第26名) 阅读90.5万
+
+★ 发现 6 个新话题，触发 /write-all...
+  → 触发写作：机器人先挣钱还是先追求AGI
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：OpenAI正式成立机器人团队
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：乌推无人机军功积分换装备引争议
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：科技基金“同名不同命”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：白宫经济主任呼吁理性看待经济数据
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：美国把机器人放进俄乌战场有何意图
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-06-01.md
