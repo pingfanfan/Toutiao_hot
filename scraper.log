@@ -22274,3 +22274,66 @@ playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms e
 Call log:
   - waiting for locator("a[href*='toutiao.com/trending/']") to be visible
 
+[main 1c36135] 抓取 2026-06-02 00:00 | 50条 | 相关8条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 143 insertions(+), 1 deletion(-)
+ create mode 100644 data/2026-06-02.md
+To github.com:pingfanfan/Toutiao_hot.git
+   7d77059..1c36135  HEAD -> main
+[2026-06-02 00:00:01.460805] 开始抓取...
+✓ 共 50 条，科技/AI/教育相关 8 条
+     英伟达凭什么重新定制下一代AI PC (科技榜第7名) 阅读130.5万
+     机器人会成为半导体下一个超级终端吗 (科技榜第19名) 阅读366.2万
+     科技基金“同名不同命” (财经榜第46名) 阅读21.3万
+     机器人先挣钱还是先追求AGI (科技榜第13名) 阅读85.7万
+     乌推无人机军功积分换装备引争议 (军事榜第10名) 阅读35.0万
+     美国大厂开始算AI的账了 (科技榜第15名) 阅读14.0万
+     长鑫IPO将至 A股科技牛能走多远 (热榜第40名) 阅读5.0万
+  ★ 新增 小米汽车5月交付量再超3万台 (汽车榜第34名) 阅读154.0万
+
+★ 发现 1 个新话题，触发 /write-all...
+  → 触发写作：小米汽车5月交付量再超3万台
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-06-02.md
+[2026-06-02 02:00:00.767263] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - <html>…</html> intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+
