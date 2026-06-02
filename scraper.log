@@ -22653,3 +22653,73 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-06-02.md
+[main 74caff4] 抓取 2026-06-02 18:00 | 80条 | 相关9条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 135 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   062a4e1..74caff4  HEAD -> main
+[2026-06-02 18:00:00.739074] 开始抓取...
+✓ 共 80 条，科技/AI/教育相关 9 条
+     孙颖莎王楚钦送高考祝福 (体育榜第7名) 阅读6.1万
+     AI行业洗牌在即了吗 (财经榜第29名) 阅读5.8万
+     高考最后几天如何冲刺 (教育榜第32名) 阅读88.8万
+  ★ 新增 英伟达杀入AI PC背后 (科技榜第33名) 阅读91.4万
+  ★ 新增 AI半导体行情结束了吗 (热榜第63名) 阅读98.9万
+  ★ 新增 马斯克旗下xAI招聘中文AI训练师 (科技榜第40名) 阅读115.6万
+  ★ 新增 国产电动车掀起全球出海热 (热榜第72名) 阅读73.0万
+     宇树科技IPO审核状态变更为提交注册 (热榜第73名) 阅读7.5万
+  ★ 新增 一场关于AI规则和权力分配的世纪审判 (科技榜第47名) 阅读10.3万
+
+★ 发现 5 个新话题，触发 /write-all...
+  → 触发写作：英伟达杀入AI PC背后
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI半导体行情结束了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：马斯克旗下xAI招聘中文AI训练师
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：国产电动车掀起全球出海热
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：一场关于AI规则和权力分配的世纪审判
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-06-02.md
+[2026-06-02 20:00:01.229013] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - element is not visible
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+
