@@ -22337,3 +22337,67 @@ Call log:
   - retrying click action
     - waiting for element to be visible, enabled and stable
 
+[main afa76b8] 抓取 2026-06-02 04:00 | 128条 | 相关18条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 224 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   1c36135..afa76b8  HEAD -> main
+[2026-06-02 04:00:00.765641] 开始抓取...
+✓ 共 128 条，科技/AI/教育相关 18 条
+  ★ 新增 香港幼稚园儿童节办航天绘画活动 (科技榜第5名) 阅读8.8万
+  ★ 新增 国产电动车掀起全球出海热 (财经榜第22名) 阅读1,572
+  ★ 新增 马斯克旗下xAI招聘中文AI训练师 (科技榜第12名) 阅读1,639
+  ★ 新增 半导体和机器人赛道火到什么程度了 (科技榜第13名) 阅读6,066
+     英伟达凭什么重新定制下一代AI PC (科技榜第22名) 阅读242.8万
+     机器人会成为半导体下一个超级终端吗 (科技榜第25名) 阅读469.0万
+     乌推无人机军功积分换装备引争议 (军事榜第20名) 阅读56.0万
+  ★ 新增 全国一体化算力网怎么建 (科技榜第23名) 阅读6,978
+     机器人先挣钱还是先追求AGI (科技榜第34名) 阅读132.5万
+     美国大厂开始算AI的账了 (科技榜第30名) 阅读22.3万
+  ★ 新增 欧盟“技术主权”计划背后的三重焦虑 (科技榜第39名) 阅读23.7万
+     科技基金“同名不同命” (热榜第79名) 阅读33.9万
+  ★ 新增 印度航空发动机技术水平如何 (军事榜第38名) 阅读69.9万
+  ★ 新增 媒体：争夺人形机器人标准话语权 (热榜第100名) 阅读17.7万
+  ★ 新增 哈工大团队取得重大科研突破 (热榜第113名) 阅读20
+  ★ 新增 用AI叫跑腿比打开美团更方便吗 (热榜第116名) 阅读22
+  ★ 新增 新华社：AI微短剧乱邪滥俗之风当刹 (热榜第120名) 阅读0
+  ★ 新增 人工智能正在港口长出“真本事” (热榜第123名) 阅读1
+
+★ 发现 12 个新话题，触发 /write-all...
+  → 触发写作：香港幼稚园儿童节办航天绘画活动
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：国产电动车掀起全球出海热
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：马斯克旗下xAI招聘中文AI训练师
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：半导体和机器人赛道火到什么程度了
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：全国一体化算力网怎么建
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：欧盟“技术主权”计划背后的三重焦虑
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：印度航空发动机技术水平如何
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：媒体：争夺人形机器人标准话语权
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：哈工大团队取得重大科研突破
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：用AI叫跑腿比打开美团更方便吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：新华社：AI微短剧乱邪滥俗之风当刹
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：人工智能正在港口长出“真本事”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-06-02.md
