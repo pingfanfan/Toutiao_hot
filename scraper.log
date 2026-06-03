@@ -23098,3 +23098,76 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-06-03.md
+[main 550acdb] 抓取 2026-06-03 14:00 | 80条 | 相关14条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 152 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   7746fac..550acdb  HEAD -> main
+[2026-06-03 14:00:01.107947] 开始抓取...
+✓ 共 80 条，科技/AI/教育相关 14 条
+     网友11年前29.7万买的手机成摆设 (科技榜第1名) 阅读186.0万
+     在印中国留学生讲述亲历高温遭遇 (国际榜第3名) 阅读215.8万
+     俄列宁格勒州遭无人机袭击 (国际榜第25名) 阅读54.3万
+     机器人赋能“未来粮仓” (科技榜第10名) 阅读43.5万
+     以大使吐槽真主党无人机防不胜防 (国际榜第32名) 阅读12.6万
+     警惕“AI押题”收割高考焦虑 (教育榜第16名) 阅读8.4万
+     三星或为比亚迪生产辅助驾驶芯片 (汽车榜第9名) 阅读22.3万
+     外国记者参观宇树科技疯狂提问 (科技榜第22名) 阅读221.5万
+  ★ 新增 AI比电商更需要618吗 (热榜第41名) 阅读5,460
+     卫星物联网迈入商用新阶段 (科技榜第37名) 阅读6.2万
+     特朗普签署人工智能行政令 (科技榜第38名) 阅读86.4万
+  ★ 新增 博主：警惕算力崇拜催生金融泡沫陷阱 (热榜第59名) 阅读6.5万
+  ★ 新增 美启动“AI锻造”计划 (热榜第70名) 阅读5.0万
+  ★ 新增 AI时代普通人如何积累数字资产 (热榜第80名) 阅读144
+
+★ 发现 4 个新话题，触发 /write-all...
+  → 触发写作：AI比电商更需要618吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：博主：警惕算力崇拜催生金融泡沫陷阱
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：美启动“AI锻造”计划
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI时代普通人如何积累数字资产
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-06-03.md
+[2026-06-03 16:00:00.452089] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - element is not visible
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+
