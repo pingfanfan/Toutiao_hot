@@ -22744,3 +22744,101 @@ To github.com:pingfanfan/Toutiao_hot.git
   （无新增相关话题）
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-06-02.md
+[main 92b7ccd] 抓取 2026-06-03 00:00 | 147条 | 相关25条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 209 insertions(+), 1 deletion(-)
+ create mode 100644 data/2026-06-03.md
+To github.com:pingfanfan/Toutiao_hot.git
+   a0910a0..92b7ccd  HEAD -> main
+[2026-06-03 00:00:02.085876] 开始抓取...
+✓ 共 147 条，科技/AI/教育相关 25 条
+  ★ 新增 孙颖莎王楚钦送高考祝福 (体育榜第5名) 阅读35.3万
+  ★ 新增 台当局442亿“无人机计划”仅一页纸 (台海榜第5名) 阅读174.4万
+  ★ 新增 AI行业洗牌在即了吗 (财经榜第44名) 阅读11.9万
+  ★ 新增 国产电动车掀起全球出海热 (财经榜第43名) 阅读96.8万
+  ★ 新增 马斯克旗下xAI招聘中文AI训练师 (科技榜第31名) 阅读141.7万
+  ★ 新增 英伟达杀入AI PC背后 (科技榜第36名) 阅读144.6万
+  ★ 新增 宇树科技IPO审核状态变更为提交注册 (热榜第55名) 阅读11.4万
+  ★ 新增 高考最后几天如何冲刺 (教育榜第37名) 阅读101.3万
+  ★ 新增 你认为中学生还需要家长接送吗 (教育榜第40名) 阅读22.1万
+  ★ 新增 AI半导体行情结束了吗 (热榜第63名) 阅读116.2万
+  ★ 新增 一场关于AI规则和权力分配的世纪审判 (科技榜第48名) 阅读14.1万
+  ★ 新增 新华社：AI微短剧乱邪滥俗之风当刹 (热榜第84名) 阅读30.2万
+  ★ 新增 苹果折叠iPhone攻克散热难题 (热榜第89名) 阅读51.2万
+  ★ 新增 “算力金属”锡价格暴涨 (热榜第98名) 阅读21.0万
+  ★ 新增 半导体和机器人赛道火到什么程度了 (热榜第102名) 阅读24.0万
+  ★ 新增 丰田研究让电动车“熄火”的系统 (汽车榜第31名) 阅读9.0万
+  ★ 新增 商业航天企业集体冲刺IPO (热榜第117名) 阅读8.8万
+  ★ 新增 算力租赁超级牛股董秘身家超半亿 (热榜第118名) 阅读18.9万
+  ★ 新增 中高考临近郑州严查酒店乱涨价 (热榜第125名) 阅读12.2万
+  ★ 新增 哈工大团队取得重大科研突破 (热榜第133名) 阅读2.6万
+  ★ 新增 香港幼稚园儿童节办航天绘画活动 (热榜第135名) 阅读26.9万
+  ★ 新增 你认为花高额学费读民办大学值吗 (热榜第136名) 阅读92.1万
+  ★ 新增 AI直接生成完整电池电解液配方 (热榜第139名) 阅读7,371
+  ★ 新增 人工智能正在港口长出“真本事” (热榜第142名) 阅读1,427
+  ★ 新增 前美团外卖技术负责人创业 (热榜第147名) 阅读1.3万
+
+★ 发现 25 个新话题，触发 /write-all...
+  → 触发写作：孙颖莎王楚钦送高考祝福
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：台当局442亿“无人机计划”仅一页纸
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI行业洗牌在即了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：国产电动车掀起全球出海热
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：马斯克旗下xAI招聘中文AI训练师
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：英伟达杀入AI PC背后
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：宇树科技IPO审核状态变更为提交注册
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：高考最后几天如何冲刺
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：你认为中学生还需要家长接送吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI半导体行情结束了吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：一场关于AI规则和权力分配的世纪审判
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：新华社：AI微短剧乱邪滥俗之风当刹
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：苹果折叠iPhone攻克散热难题
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：“算力金属”锡价格暴涨
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：半导体和机器人赛道火到什么程度了
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：丰田研究让电动车“熄火”的系统
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：商业航天企业集体冲刺IPO
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：算力租赁超级牛股董秘身家超半亿
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中高考临近郑州严查酒店乱涨价
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：哈工大团队取得重大科研突破
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：香港幼稚园儿童节办航天绘画活动
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：你认为花高额学费读民办大学值吗
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI直接生成完整电池电解液配方
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：人工智能正在港口长出“真本事”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：前美团外卖技术负责人创业
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-06-03.md
