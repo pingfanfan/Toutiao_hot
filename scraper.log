@@ -23432,3 +23432,84 @@ Call log:
   - retrying click action
     - waiting for element to be visible, enabled and stable
 
+[main 3927fa7] 抓取 2026-06-04 08:00 | 120条 | 相关23条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 250 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   8d97e2f..3927fa7  HEAD -> main
+[2026-06-04 08:00:01.071333] 开始抓取...
+✓ 共 120 条，科技/AI/教育相关 23 条
+  ★ 新增 宇树科技“闪电”过会引爆市场 (财经榜第6名) 阅读1.6万
+  ★ 新增 宇树科技急着上市海外同行怎么看 (财经榜第9名) 阅读1.4万
+  ★ 新增 印媒为何争论特斯拉还建不建厂 (国际榜第12名) 阅读5.5万
+  ★ 新增 微软拓扑量子芯片可靠性暴涨千倍 (科技榜第8名) 阅读3,046
+  ★ 新增 11名“科技副主任”上任国家级开发区 (热榜第47名) 阅读1.8万
+  ★ 新增 特朗普签署AI监管行政令有何影响 (国际榜第43名) 阅读1,058
+  ★ 新增 新能源车市为何降价与涨价并存 (汽车榜第13名) 阅读1,769
+  ★ 新增 中国商业航天的新驱动力 (科技榜第18名) 阅读4,263
+     美股科技最大多头正在消失 (热榜第57名) 阅读12.8万
+  ★ 新增 说话5秒AI诈骗就能复制你的声音 (科技榜第29名) 阅读712
+  ★ 新增 中国技术破解越南河内“垃圾之困” (科技榜第47名) 阅读7,972
+     以大使吐槽真主党无人机防不胜防 (热榜第80名) 阅读86.9万
+     警惕“AI押题”收割高考焦虑 (教育榜第33名) 阅读67.5万
+  ★ 新增 高考升学规划师：考前千万别吃榴莲 (教育榜第46名) 阅读9.0万
+  ★ 新增 马斯克“太空算力梦”的瓶颈是什么 (热榜第92名) 阅读116
+  ★ 新增 存储芯片凭什么撑起10万亿大市场 (热榜第94名) 阅读143
+     机器人如何赋能粮食产业 (热榜第100名) 阅读2.2万
+     AI比电商更需要618吗 (热榜第102名) 阅读10.2万
+  ★ 新增 英伟达RTX Spark对决苹果M5 (热榜第109名) 阅读12
+  ★ 新增 亚马逊AI数据中心建设受阻 (热榜第111名) 阅读3
+  ★ 新增 加拿大一地将推“加速教师资格证书” (热榜第112名) 阅读109
+  ★ 新增 “算力金属”锡为何暴涨 (热榜第117名) 阅读2.9万
+  ★ 新增 AI时代普通人如何积累数字资产 (热榜第118名) 阅读2,951
+
+★ 发现 18 个新话题，触发 /write-all...
+  → 触发写作：宇树科技“闪电”过会引爆市场
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：宇树科技急着上市海外同行怎么看
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：印媒为何争论特斯拉还建不建厂
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：微软拓扑量子芯片可靠性暴涨千倍
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：11名“科技副主任”上任国家级开发区
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：特朗普签署AI监管行政令有何影响
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：新能源车市为何降价与涨价并存
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国商业航天的新驱动力
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：说话5秒AI诈骗就能复制你的声音
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：中国技术破解越南河内“垃圾之困”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：高考升学规划师：考前千万别吃榴莲
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：马斯克“太空算力梦”的瓶颈是什么
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：存储芯片凭什么撑起10万亿大市场
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：英伟达RTX Spark对决苹果M5
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：亚马逊AI数据中心建设受阻
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：加拿大一地将推“加速教师资格证书”
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：“算力金属”锡为何暴涨
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：AI时代普通人如何积累数字资产
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-06-04.md
