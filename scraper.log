@@ -23340,3 +23340,95 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-06-04.md
+[main 8d97e2f] 抓取 2026-06-04 02:00 | 90条 | 相关11条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 172 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   d66d881..8d97e2f  HEAD -> main
+[2026-06-04 02:00:01.004852] 开始抓取...
+✓ 共 90 条，科技/AI/教育相关 11 条
+  ★ 新增 美股科技最大多头正在消失 (财经榜第6名) 阅读3.3万
+     网友11年前29.7万买的手机成摆设 (科技榜第1名) 阅读365.2万
+     以大使吐槽真主党无人机防不胜防 (热榜第32名) 阅读60.2万
+     俄列宁格勒州遭无人机袭击 (热榜第33名) 阅读144.2万
+  ★ 新增 机器人如何赋能粮食产业 (热榜第38名) 阅读6,557
+     三星或为比亚迪生产辅助驾驶芯片 (汽车榜第11名) 阅读60.3万
+     警惕“AI押题”收割高考焦虑 (教育榜第49名) 阅读53.5万
+     机器人赋能“未来粮仓” (科技榜第48名) 阅读91.8万
+     存储器成AI产业链涨价潮新热点 (热榜第72名) 阅读7.9万
+     博主：警惕算力崇拜催生金融泡沫陷阱 (热榜第76名) 阅读13.3万
+     AI比电商更需要618吗 (热榜第78名) 阅读8.0万
+
+★ 发现 2 个新话题，触发 /write-all...
+  → 触发写作：美股科技最大多头正在消失
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：机器人如何赋能粮食产业
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-06-04.md
+[2026-06-04 04:00:00.646772] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+
+[2026-06-04 06:00:00.734389] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - element is not visible
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+
