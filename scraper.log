@@ -23560,3 +23560,71 @@ To github.com:pingfanfan/Toutiao_hot.git
   ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
 ⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
 ✓ 已保存并推送：data/2026-06-04.md
+[main dcaf7f8] 抓取 2026-06-04 12:00 | 90条 | 相关16条
+ Committer: pingfan <pingfan@pingfans-Mac-Studio.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 168 insertions(+), 1 deletion(-)
+To github.com:pingfanfan/Toutiao_hot.git
+   8a6bcb2..dcaf7f8  HEAD -> main
+[2026-06-04 12:00:01.310269] 开始抓取...
+✓ 共 90 条，科技/AI/教育相关 16 条
+  ★ 新增 乌无人机专挑俄方重大活动时动手 (军事榜第2名) 阅读13.1万
+     宇树科技“闪电”过会引爆市场 (财经榜第3名) 阅读97.1万
+     宇树科技急着上市海外同行怎么看 (财经榜第7名) 阅读74.6万
+     教育局回应戴牙套是否影响高考入场 (教育榜第11名) 阅读7.9万
+  ★ 新增 如何评价美国六代机技术方案 (军事榜第12名) 阅读2,534
+     中国商业航天的新驱动力 (科技榜第16名) 阅读7.6万
+     特朗普签署AI监管行政令有何影响 (国际榜第42名) 阅读3.1万
+     印媒为何争论特斯拉还建不建厂 (国际榜第49名) 阅读9.4万
+     说话5秒AI诈骗就能复制你的声音 (科技榜第28名) 阅读1.7万
+     女生吃胖35斤毕业致谢99家小吃店 (教育榜第45名) 阅读7,199
+     新能源车市为何降价与涨价并存 (汽车榜第22名) 阅读2.3万
+     美股科技最大多头正在消失 (热榜第60名) 阅读20.7万
+     马斯克“太空算力梦”的瓶颈是什么 (科技榜第37名) 阅读9,711
+     机器人爆发前夜卖数据的先赚钱了 (科技榜第46名) 阅读5.4万
+     “手搓短剧”靠什么超越“AI量产剧” (热榜第86名) 阅读1.0万
+     11名“科技副主任”上任国家级开发区 (热榜第88名) 阅读4.3万
+
+★ 发现 2 个新话题，触发 /write-all...
+  → 触发写作：乌无人机专挑俄方重大活动时动手
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+  → 触发写作：如何评价美国六代机技术方案
+  ⚠️  触发失败：[Errno 2] No such file or directory: '/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude'
+⚠️  GitHub 通知失败：HTTP Error 401: Unauthorized
+✓ 已保存并推送：data/2026-06-04.md
+[2026-06-04 14:00:00.604233] 开始抓取...
+Traceback (most recent call last):
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 308, in <module>
+    main()
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 270, in main
+    items = scrape_items(page)
+  File "/Users/pingfan/Toutiao_hot/scrape.py", line 58, in scrape_items
+    more_btn.click()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/sync_api/_generated.py", line 2167, in click
+    self._sync(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_element_handle.py", line 143, in click
+    await self._channel.send(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/pingfan/Library/Python/3.9/lib/python/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+
