@@ -18,7 +18,11 @@ from playwright.sync_api import sync_playwright
 AUTH_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".auth")
 URL = "https://mp.toutiao.com/profile_v4/activity/hot-selection"
 OPENMONEY_DIR = os.path.expanduser("~/Desktop/AK/OpenMoney")
-CLAUDE_BIN_GLOB = os.path.expanduser("~/Library/Application Support/Claude/claude-code/*/claude.app/Contents/MacOS/claude")
+# 桌面端的目录结构会变：老版本是 <版本>/claude.app，新版本是 <版本>/<哈希>/claude.app
+CLAUDE_BIN_GLOBS = [
+    os.path.expanduser("~/Library/Application Support/Claude/claude-code/*/claude.app/Contents/MacOS/claude"),
+    os.path.expanduser("~/Library/Application Support/Claude/claude-code/*/*/claude.app/Contents/MacOS/claude"),
+]
 MAX_ATTEMPTS = 3
 
 
@@ -31,9 +35,13 @@ def find_claude_bin():
     def ver(path):
         v = path.split("/claude-code/")[1].split("/")[0]
         return tuple(int(x) if x.isdigit() else 0 for x in v.split("."))
-    candidates = sorted(glob.glob(CLAUDE_BIN_GLOB), key=ver)
+    candidates = sorted((c for g in CLAUDE_BIN_GLOBS for c in glob.glob(g)), key=ver)
     if candidates:
         return candidates[-1]
+    # launchd 的 PATH 里没有 ~/.local/bin，单独找一下命令行版
+    local_bin = os.path.expanduser("~/.local/bin/claude")
+    if os.access(local_bin, os.X_OK):
+        return local_bin
     return shutil.which("claude")
 LAST_TOPICS_FILE = "data/last_topics.json"
 
@@ -94,8 +102,13 @@ def scrape_items(page) -> list[dict]:
 
     # 抓取所有条目
     links = page.query_selector_all("a[href*='toutiao.com/trending/']")
+    seen = set()
     for link in links:
         trending_url = link.get_attribute("href") or ""
+        # 加载更多时页面偶尔会把同一条再渲染一次
+        if trending_url in seen:
+            continue
+        seen.add(trending_url)
         text = link.inner_text().strip()
 
         lines = [l.strip() for l in text.splitlines() if l.strip()]
