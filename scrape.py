@@ -69,15 +69,28 @@ def scrape_items(page) -> list[dict]:
     # 循环点击"加载更多"直到没有为止。
     # 用 locator 而不是 ElementHandle：列表重新渲染后旧句柄会失效
     # （"Element is not attached to the DOM"），locator 每次都会重新查找。
+    # 点击后按钮会先消失、新条目稍后才渲染出来，所以不能看到按钮消失就停，
+    # 要等条目数连续几秒不再增长才算加载完。
+    link_sel = "a[href*='toutiao.com/trending/']"
     for _ in range(30):
+        before = page.locator(link_sel).count()
         more_btn = page.locator("text=加载更多").first
-        if more_btn.count() == 0:
+        if more_btn.count() > 0:
+            try:
+                more_btn.click(timeout=5000)
+            except Exception as e:
+                print(f"  （加载更多点击失败，重试：{e.__class__.__name__}）")
+        else:
+            page.mouse.wheel(0, 5000)
+        grew = False
+        for _ in range(16):
+            page.wait_for_timeout(500)
+            if page.locator(link_sel).count() > before:
+                grew = True
+                break
+        if not grew and page.locator("text=加载更多").count() == 0:
             break
-        try:
-            more_btn.click(timeout=5000)
-        except Exception as e:
-            print(f"  （加载更多点击失败，重试：{e.__class__.__name__}）")
-        page.wait_for_timeout(1500)
+    page.wait_for_timeout(1000)
 
     # 抓取所有条目
     links = page.query_selector_all("a[href*='toutiao.com/trending/']")
