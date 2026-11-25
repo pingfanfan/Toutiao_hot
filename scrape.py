@@ -307,6 +307,17 @@ def notify_failure(reason: str):
     post_github_comment(token, issue_number, f"## ⚠️ {ts} 抓取失败\n\n{reason}")
 
 
+def export_cookies(context):
+    """把头条登录状态存一份给小草的文章看板（tt_dashboard）用，
+    它直接读这个文件，不用再手动从浏览器复制 Cookie。"""
+    cookies = [c for c in context.cookies() if "toutiao.com" in c["domain"]]
+    path = os.path.join(AUTH_DIR, "toutiao_cookies.json")
+    with open(path + ".tmp", "w", encoding="utf-8") as f:
+        json.dump(cookies, f, ensure_ascii=False)
+    os.chmod(path + ".tmp", 0o600)
+    os.replace(path + ".tmp", path)
+
+
 def fetch_items() -> list[dict]:
     with sync_playwright() as p:
         browser = p.chromium.launch_persistent_context(
@@ -328,7 +339,9 @@ def fetch_items() -> list[dict]:
                     raise LoginExpired(page.url)
                 raise
 
-            return scrape_items(page)
+            items = scrape_items(page)
+            export_cookies(browser)
+            return items
         finally:
             browser.close()
 
