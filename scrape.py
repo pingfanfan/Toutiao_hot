@@ -8,6 +8,9 @@ import re
 import sys
 import json
 import subprocess
+import glob
+import shutil
+import time
 import urllib.request
 from datetime import datetime
 from playwright.sync_api import sync_playwright
@@ -15,7 +18,23 @@ from playwright.sync_api import sync_playwright
 AUTH_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".auth")
 URL = "https://mp.toutiao.com/profile_v4/activity/hot-selection"
 OPENMONEY_DIR = os.path.expanduser("~/Desktop/AK/OpenMoney")
-CLAUDE_BIN = "/Users/pingfan/Library/Application Support/Claude/claude-code/2.1.87/claude.app/Contents/MacOS/claude"
+CLAUDE_BIN_GLOB = os.path.expanduser("~/Library/Application Support/Claude/claude-code/*/claude.app/Contents/MacOS/claude")
+MAX_ATTEMPTS = 3
+
+
+class LoginExpired(Exception):
+    pass
+
+
+def find_claude_bin():
+    """Claude 桌面端升级后旧版本目录会被删除，所以每次动态找最新版本"""
+    def ver(path):
+        v = path.split("/claude-code/")[1].split("/")[0]
+        return tuple(int(x) if x.isdigit() else 0 for x in v.split("."))
+    candidates = sorted(glob.glob(CLAUDE_BIN_GLOB), key=ver)
+    if candidates:
+        return candidates[-1]
+    return shutil.which("claude")
 LAST_TOPICS_FILE = "data/last_topics.json"
 
 KEYWORDS = [
@@ -47,15 +66,17 @@ def scrape_items(page) -> list[dict]:
     """点击加载更多直到全部加载，抓取所有热选条目（最多100条）"""
     items = []
 
-    # 等待热选列表加载
-    page.wait_for_selector("a[href*='toutiao.com/trending/']", timeout=15000)
-
-    # 循环点击"加载更多"直到没有为止
-    while True:
-        more_btn = page.query_selector("text=加载更多")
-        if not more_btn:
+    # 循环点击"加载更多"直到没有为止。
+    # 用 locator 而不是 ElementHandle：列表重新渲染后旧句柄会失效
+    # （"Element is not attached to the DOM"），locator 每次都会重新查找。
+    for _ in range(30):
+        more_btn = page.locator("text=加载更多").first
+        if more_btn.count() == 0:
             break
-        more_btn.click()
+        try:
+            more_btn.click(timeout=5000)
+        except Exception as e:
+            print(f"  （加载更多点击失败，重试：{e.__class__.__name__}）")
         page.wait_for_timeout(1500)
 
     # 抓取所有条目
@@ -182,9 +203,13 @@ def trigger_write_all(topic: dict):
         f"去创作链接：{topic['link']}"
     )
     print(f"  → 触发写作：{topic['title']}")
+    claude_bin = find_claude_bin()
+    if not claude_bin:
+        print("  ⚠️  未找到 claude 可执行文件，跳过写作")
+        return
     try:
         subprocess.Popen(
-            [CLAUDE_BIN, "-p", prompt, "--dangerously-skip-permissions"],
+            [claude_bin, "-p", prompt, "--dangerously-skip-permissions"],
             cwd=OPENMONEY_DIR,
             stdout=open(os.path.join(OPENMONEY_DIR, f"logs/write-{datetime.now().strftime('%Y%m%d-%H%M')}-{topic['title'][:20]}.log"), "w"),
             stderr=subprocess.STDOUT,
@@ -245,6 +270,43 @@ def git_push(timestamp: datetime, total: int, relevant_count: int, new_topics: l
 
     post_github_comment(token, issue_number, comment)
 
+def notify_failure(reason: str):
+    """抓取失败时发 Issue 评论，免得挂了好几个月都没人发现"""
+    env = load_env()
+    token = env.get("GITHUB_TOKEN")
+    if not token:
+        return
+    issue_number = int(env.get("GITHUB_ISSUE_NUMBER", 1))
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+    post_github_comment(token, issue_number, f"## ⚠️ {ts} 抓取失败\n\n{reason}")
+
+
+def fetch_items() -> list[dict]:
+    with sync_playwright() as p:
+        browser = p.chromium.launch_persistent_context(
+            user_data_dir=AUTH_DIR,
+            headless=True,
+        )
+        try:
+            page = browser.new_page()
+            # 不要用 networkidle：头条号后台有持续的埋点/轮询请求，
+            # 网络永远不会"空闲"，这是 30s 超时的主要原因。
+            page.goto(URL, wait_until="domcontentloaded", timeout=60000)
+
+            # 等热选列表出现；超时则判断是不是被踢到了登录页
+            try:
+                page.wait_for_selector("a[href*='toutiao.com/trending/']", timeout=30000)
+            except Exception:
+                if "login" in page.url or "auth" in page.url \
+                        or page.locator("input[type='password']").count() > 0:
+                    raise LoginExpired(page.url)
+                raise
+
+            return scrape_items(page)
+        finally:
+            browser.close()
+
+
 def main():
     if not os.path.exists(AUTH_DIR):
         print("错误：未找到登录状态，请先运行 login.py")
@@ -253,29 +315,30 @@ def main():
     print(f"[{datetime.now()}] 开始抓取...")
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch_persistent_context(
-            user_data_dir=AUTH_DIR,
-            headless=True,
-        )
-        page = browser.new_page()
-        page.goto(URL, wait_until="networkidle", timeout=30000)
-
-        # 检查是否已登录
-        if "login" in page.url or "auth" in page.url:
-            print("错误：登录状态已过期，请重新运行 login.py")
-            browser.close()
+    items = []
+    last_err = None
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            items = fetch_items()
+            if items:
+                break
+            last_err = "未抓取到任何条目"
+        except LoginExpired as e:
+            print(f"错误：登录状态已过期（{e}），请重新运行 login.py")
+            notify_failure("登录状态已过期，请在 Mac 上运行 `python3 login.py` 重新登录。")
             sys.exit(1)
-
-        items = scrape_items(page)
-        browser.close()
+        except Exception as e:
+            last_err = f"{e.__class__.__name__}: {str(e).splitlines()[0]}"
+        print(f"  第 {attempt} 次尝试失败：{last_err}")
+        if attempt < MAX_ATTEMPTS:
+            time.sleep(30)
 
     if not items:
-        print("错误：未抓取到任何条目")
+        print(f"错误：{MAX_ATTEMPTS} 次尝试均失败：{last_err}")
+        notify_failure(f"{MAX_ATTEMPTS} 次尝试均失败：`{last_err}`")
         sys.exit(1)
 
     timestamp = datetime.now()
-
     # 检测新话题
     last_titles = load_last_topics()
     new_topics = find_new_topics(items, last_titles)
