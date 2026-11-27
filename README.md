@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-11-27 08:00 | （无） | 29 | [查看](data/2026-11-27.md) |
 | 2026-11-27 06:08 | （无） | 27 | [查看](data/2026-11-27.md) |
 | 2026-11-27 06:00 | （无） | 28 | [查看](data/2026-11-27.md) |
 | 2026-11-27 04:08 | [印度为何眼红巴基斯坦航天员上太空](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7712358191782170175&enter_from=inspiration)<br>[中国城市首次包揽全球科研城市前三](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7712298031005532722&enter_from=inspiration) | 30 | [查看](data/2026-11-27.md) |
