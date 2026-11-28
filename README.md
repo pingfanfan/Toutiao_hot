@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-11-28 06:13 | [雷军现身小米武汉科技园开园活动](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7713060041046475274&enter_from=inspiration) | 32 | [查看](data/2026-11-28.md) |
 | 2026-11-28 06:00 | [雷军现身小米武汉科技园开园活动](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7713060041046475274&enter_from=inspiration) | 31 | [查看](data/2026-11-28.md) |
 | 2026-11-28 04:12 | （无） | 27 | [查看](data/2026-11-28.md) |
 | 2026-11-28 04:00 | （无） | 27 | [查看](data/2026-11-28.md) |
