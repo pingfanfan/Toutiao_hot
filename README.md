@@ -4,6 +4,7 @@
 
 | 时间 | 科技/AI/教育话题 | 总话题数 | 详情 |
 |------|-----------------|---------|------|
+| 2026-11-28 12:00 | [台积电拟在美国新建2纳米芯片厂](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7712782652478898697&enter_from=inspiration)<br>[雷军现身小米武汉科技园开园活动](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7713060041046475274&enter_from=inspiration) | 23 | [查看](data/2026-11-28.md) |
 | 2026-11-28 10:13 | [台积电拟在美国新建2纳米芯片厂](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7712782652478898697&enter_from=inspiration)<br>[雷军现身小米武汉科技园开园活动](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7713060041046475274&enter_from=inspiration) | 22 | [查看](data/2026-11-28.md) |
 | 2026-11-28 10:00 | [台积电拟在美国新建2纳米芯片厂](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7712782652478898697&enter_from=inspiration)<br>[雷军现身小米武汉科技园开园活动](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7713060041046475274&enter_from=inspiration) | 20 | [查看](data/2026-11-28.md) |
 | 2026-11-28 08:13 | [雷军现身小米武汉科技园开园活动](https://mp.toutiao.com/profile_v4/graphic/publish?hot_selection_id=7713060041046475274&enter_from=inspiration) | 23 | [查看](data/2026-11-28.md) |
